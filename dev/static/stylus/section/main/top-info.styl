@@ -1,0 +1,38 @@
+.top-info
+  margin-bottom 187px
+
+.top-info__wrap
+  display flex
+  justify-content space-between
+
+.top-info__text
+  width 100%
+  max-width 636px
+  padding-left 43px
+  padding-top 80px
+  font-size 24px
+  font-weight 300
+  line-height 42px
+  letter-spacing 0.24px 
+  position relative
+  align-self flex-start
+  &:before
+    content ''
+    display block
+    size(3px, 208px)
+    background accent-color
+    position absolute
+    bottom 0
+    left 0
+  &:after
+    content ''
+    display block
+    size(732px, 203px)
+    background #f9fbfb
+    position absolute
+    bottom -91px
+    left 166px
+    z-index -1
+
+.top-info__img
+  margin-right 63px

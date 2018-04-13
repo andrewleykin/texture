@@ -1,0 +1,57 @@
+.footer
+  background-color #524545
+  padding 36px 0 49px
+
+.footer__wrap
+  display flex
+  align-items: center
+  justify-content space-between
+
+.footer__social
+  display flex
+  flex-direction row-reverse
+
+.footer__el
+  padding 5px
+  display block
+  &:hover
+    .icon
+      fill darken(#e1e1e1, 20%)
+  &+&
+    margin-right 5px
+  .icon
+    size(29px, 28px)
+    fill #e1e1e1
+    @extend .trs
+    cursor pointer
+
+.footer__address
+  display flex
+  align-items center
+  .icon
+    size(33px, 33px)
+    margin-right 10px
+    fill #a7a7a7
+
+.footer__email
+  display flex
+  align-items center
+  .icon
+    size(29px, 29px)
+    margin-right 14px
+    fill #a7a7a7
+
+.footer__title
+  display block
+  margin-bottom 7px
+  font-weight 300
+  color #f9f8f8
+  letter-spacing 0.08px
+
+.footer__link
+  display block
+  font-weight 700
+  letter-spacing 0.08px
+  color #f9f8f8
+  &:hover
+    color darken(#f9f8f8, 20%)

@@ -1,0 +1,143 @@
+.information
+  margin-bottom 165px
+  overflow hidden
+
+.information__team
+  box-shadow 4px 19px 76px rgba(103, 79, 46, 0.04)
+  background-color #f1f1f1
+  width 100%
+  max-width 598px
+  margin-left auto
+  padding-top 70px
+  padding-left 172px
+  padding-bottom 99px
+
+.information__title
+  font-size 24px
+  font-weight 700
+  letter-spacing 0.12px
+  &--light
+    color #f1f1f1
+    position relative
+    align-self: flex-start
+    &:after
+      content ''
+      display block
+      width 87px
+      height 1px
+      background-color accent-color
+      position absolute
+      right -125px
+      top 50%
+      transform translateY(-50%)
+
+.information__text
+  margin-top 38px
+  margin-bottom 120px
+  max-width 327px
+  font-weight 300
+  line-height 23px
+  letter-spacing 0.08px
+
+.information__more
+  display flex
+  align-items center
+  max-width 200px
+  padding-right 12px
+  .icon
+    display block
+    margin-left 22px
+    size(12px, 20px)
+    fill #a38383
+    @extend .trs
+  &:hover
+    .icon
+      margin-left 30px
+
+.information__project
+  z-index 2
+  position relative
+  display flex
+  justify-content space-between
+  width 100%
+  max-width 670px
+  &:after
+    content ''
+    display block
+    position absolute
+    bottom 0
+    right 0
+    width 983px
+    height 487px
+    z-index -1
+    background url(../img/content/main/information/bg.jpg) center no-repeat
+
+.information__controls
+  display flex
+
+.information__control
+  position relative
+  cursor pointer
+  size(99px, 90px)
+  background-color #3c2f2f
+  @extend .trs
+  .icon
+    size(9px, 15px)
+    absolute-center()
+    fill #6e5a5a
+    @extend .trs
+  &:hover
+    background-color text-color
+    .icon
+      fill #cfc1c1
+  &--prev
+    transform rotate(180deg)
+
+.information__list
+  width 983px
+  position absolute
+  right 147px
+  bottom calc(100% + 73px)
+
+.information__item
+  margin 0 22px 0 23px
+
+.information__img
+  position relative
+  margin-bottom 29px
+  display block
+  &:hover
+    .information__search
+      width 102px
+      height 92px
+      background-color rgba(text-color, 0.9)
+      .icon
+        size(22px, 22px)
+
+.information__search
+  position absolute
+  bottom 0
+  right 0
+  width 82px
+  height 74px
+  background-color text-color
+  @extend .trs
+  transform-origin bottom right
+  .icon
+    size(19px, 19px)
+    absolute-center()
+    fill #796565
+
+.information__name
+  margin-bottom 14px
+  display block
+  color #f8f8f8
+  font-size 19px
+  font-weight 700
+  letter-spacing 0.47px
+
+.information__author
+  color #b3b3b3
+  font-size 14px
+  font-style italic
+  letter-spacing 0.35px

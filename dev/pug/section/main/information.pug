@@ -1,0 +1,25 @@
+section.information
+  .container
+    .information__wrap
+      .information__team
+        h3.information__title= main.information.team.title
+        p.information__text= main.information.team.text
+        a.information__more.btn.btn--border(href=main.information.team.link.href)
+          span= main.information.team.link.text
+          +icon(main.general.icons.arrow)
+      .information__project
+        h3.information__title.information__title--light= main.information.project.title
+        .information__controls
+          .information__control.information__control--prev
+            +icon(main.general.icons.arrow)
+          .information__control.information__control--next
+            +icon(main.general.icons.arrow)
+        .information__list
+           each item in main.information.project.list
+            .information__item
+              a.information__img(href="#")
+                img(src=item["imgSrc"] alt=item["imgAlt"])
+                .information__search
+                  +icon(main.general.icons.search)
+              span.information__name= item["name"]
+              span.information__author= item["author"]

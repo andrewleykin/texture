@@ -1,13 +1,24 @@
 // ОБЩИЕ СТИЛИ
 
+.wrapper
+	position relative
+	&:before
+		absolute-all(0)
+		top 369px
+		width 100%
+		height calc(100% - 369px)
+		content ''
+		z-index -1
+		max-width 1170px
+		margin 0 auto
+		background: repeating-linear-gradient(to right, #f0f0f0, #f0f0f0 1px, transparent 1px, transparent 166px)
+
 .container 
 	width 100%
 	max-width 1170px
 	margin 0 auto
 	@media (max-width: 1200px) 
 		padding 0 10px
-
-
 
 
 // футер к низу
@@ -17,5 +28,5 @@ body
 	flex-direction column
 
 
-.main 
-	flex 1
+.wrapper
+	flex auto

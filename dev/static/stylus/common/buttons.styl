@@ -1,0 +1,37 @@
+.btn
+  display block
+  padding 22px 38px
+  color accent-color
+  font-size 14px
+  font-weight 700
+  text-transform uppercase
+  letter-spacing 1.4px
+  cursor pointer
+  position relative
+
+  &--border
+    border-hover = 1px solid #bfb7b7
+    
+    border 1px solid rgba(207, 207, 207, 0.41)
+    &:hover
+      &:before,&:after
+        transform scale(1)  
+    &:before,&:after
+      content ''
+      display block
+      size(98px, 25px)
+      position absolute
+      transform scale(0)
+      @extend .trs
+    &:before
+      top 0
+      left 0
+      border-top border-hover
+      border-left border-hover
+      transform-origin top left
+    &:after
+      bottom 0
+      right 0
+      border-bottom border-hover
+      border-right border-hover
+      transform-origin bottom right

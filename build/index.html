@@ -1,19 +1,293 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
   <head>
-    <meta charset="utf-8">
+    <!-- Заголовок сайта-->
     <title>Главная страница</title>
+    <!-- Мета теги-->
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE = edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
+    <!-- Стили-->
+    <!-- Библиотеки-->
     <link rel="stylesheet" type="text/css" href="app/css/foundation.css">
+    <!-- Собственные стили-->
     <link rel="stylesheet" type="text/css" href="app/css/main.css"><!--[if lt IE 9]>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
     <body>
       <div class="wrapper">
+        <!-- Шапка-->
+        <header class="header">
+          <div class="container">
+            <div class="header__wrap">
+              <div class="header__logo"><a class="logo" href="index.html"><img src="app/img/general/logo.png" alt="Texture Logo"></a></div>
+              <div class="header__menu">
+                <nav class="menu">
+                  <ul class="menu__list">
+                    <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
+                    <li class="menu__item"><a class="menu__link" href="brands.html">Продукция</a></li>
+                    <li class="menu__item"><a class="menu__link" href="news.html">Новости</a></li>
+                    <li class="menu__item"><a class="menu__link" href="projects.html">Наши проекты</a></li>
+                    <li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="header__action">
+                <div class="btn btn--border">Стать партнером</div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <!-- Конец Шапки-->
+        <!-- Контент-->
+        <!-- Топ секция-->
+        <section class="top-banner">
+          <div class="top-banner__social"><a class="top-banner__link" href="#">
+              <svg class="icon icon-vk ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
+              </svg></a><a class="top-banner__link" href="#">
+              <svg class="icon icon-od ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#od"></use>
+              </svg></a><a class="top-banner__link" href="#">
+              <svg class="icon icon-fb ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#fb"></use>
+              </svg></a><a class="top-banner__link" href="#">
+              <svg class="icon icon-inst ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
+              </svg></a>
+          </div>
+          <div class="container">
+            <div class="top-banner__wrap">
+              <div class="top-banner__texts"><span class="top-banner__text">Последние коллекции</span><span class="top-banner__text">модных текстильных</span><span class="top-banner__text">производителей</span>
+              </div>
+              <div class="top-banner__slider">
+                <div class="top-banner__controls">
+                  <div class="top-banner__control top-banner__control--prev">
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                  <div class="top-banner__control top-banner__control--next">
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="top-banner__list">
+                  <div class="top-banner__item">
+                    <div class="top-banner__img"><img src="app/img/content/main/top-banner/1.jpg" alt="Photo - Slide 1"></div>
+                    <div class="top-banner__info more more--big"><span class="top-banner__brand">Italissima Home</span><span class="top-banner__name">by Eva Minge</span></div>
+                  </div>
+                  <div class="top-banner__item">
+                    <div class="top-banner__img"><img src="app/img/content/main/top-banner/1.jpg" alt="Photo - Slide 2"></div>
+                    <div class="top-banner__info more more--big"><span class="top-banner__brand">Italissima Home 2</span><span class="top-banner__name">by Eva Minge</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Конец топ секции-->
+        <!-- Топ информация-->
+        <section class="top-info">
+          <div class="container">
+            <div class="top-info__wrap">
+              <p class="top-info__text">Мы ориентированы на взаимовыгодное сотрудничество с архитекторами, архитектурными бюро, дизайн-студиями, интерьерными дизайнерами, и готовы предложить самый комфортный и удобный сервис.</p>
+              <div class="top-info__img"><img src="app/img/content/main/top-info/chair.png" alt="Chair"></div>
+            </div>
+          </div>
+        </section>
+        <!-- Конец топ информации-->
+        <!-- Предпросмотр Брендов-->
+        <section class="brands-preview">
+          <div class="container">
+            <div class="brands-preview__wrap">
+              <div class="brands-preview__row">
+                <div class="brands-preview__info">     
+                  <h3 class="brands-preview__title">Дизайнер понимает, что достиг совершенства не тогда, когда ему нечего добавить, а&nbsp;тогда, когда нечего убрать.</h3>
+                  <div class="brands-preview__name"><span class="brands-preview__name--ru">Антуан де Сент-Экзюпери</span><span class="brands-preview__name--eng">(Antoine de Saint-Exupéry)</span></div>
+                </div>
+                <div class="brands-preview__img"><img src="app/img/content/main/brands-preview/1.jpg" alt="Brands Preview 1"></div>
+              </div>
+              <div class="brands-preview__row">
+                <div class="brands-preview__photo"><img src="app/img/content/main/brands-preview/2.jpg" alt="Brands Preview 2"><a class="brands-preview__more more" href="brands.html">Посмотреть бренды</a></div>
+                <p class="brands-preview__text">В студийной экспозиции, собрана обширная библиотека интерьерных тканей, от ведущих дизайнеров Европы и Москвы. Громкие имена, прямые поставки, оптимальные сроки, последние тренды и все самое модное из мира текстиля.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Предпросмотр Брендов-->
+        <!-- Информация о Команде и Проектах-->
+        <section class="information">
+          <div class="container">
+            <div class="information__wrap">
+              <div class="information__team">
+                <h3 class="information__title">Наша команда</h3>
+                <p class="information__text">Интуиция и чувство тренда и тенденций, - отличительная черта нашей команды. Мы понимаем искусство в деталях. Создаем шедевры. Поражаем воображение. Создаем шедевры. Поражаем воображение</p><a class="information__more btn btn--border" href="team.html"><span>подробнее</span>
+                  <svg class="icon icon-arrow ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                  </svg></a>
+              </div>
+              <div class="information__project">
+                <h3 class="information__title information__title--light">Наши проекты</h3>
+                <div class="information__controls">
+                  <div class="information__control information__control--prev">
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                  <div class="information__control information__control--next">
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div>
+                </div>
+                <div class="information__list">
+                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/1.jpg" alt="Project 1">
+                      <div class="information__search">
+                        <svg class="icon icon-search ">
+                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
+                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/2.jpg" alt="Project 2">
+                      <div class="information__search">
+                        <svg class="icon icon-search ">
+                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
+                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 3">
+                      <div class="information__search">
+                        <svg class="icon icon-search ">
+                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
+                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 4">
+                      <div class="information__search">
+                        <svg class="icon icon-search ">
+                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Информация о Команде и Проектах-->
+        <!-- Предпросмотр Новостей-->
+        <section class="news-preview">
+          <div class="container">
+            <h2 class="news-preview__title title">Новости</h2>
+            <div class="news-preview__wrap">
+              <div class="news-preview__list"><a class="news-preview__item" href="#">
+                  <div class="news-preview__img"><img src="app/img/content/main/news-preview/1.jpg" alt="News Preview 1"></div><span class="news-preview__tag">Новость</span>
+                  <div class="news-preview__date news-preview__date--big">
+                    <svg class="icon icon-clock ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
+                    </svg><span>15.02.2018</span>
+                  </div>
+                  <div class="news-preview__descr">
+                    <p class="news-preview__text news-preview__text--big">Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...</p>
+                    <div class="news-preview__more news-preview__more--big"><span>Прочитать</span>
+                      <svg class="icon icon-arrow ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </div></a><a class="news-preview__item" href="#">
+                  <div class="news-preview__img"><img src="app/img/content/main/news-preview/1.jpg" alt="News Preview 1"></div><span class="news-preview__tag">Акции</span>
+                  <div class="news-preview__date news-preview__date--big">
+                    <svg class="icon icon-clock ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
+                    </svg><span>15.02.2018</span>
+                  </div>
+                  <div class="news-preview__descr">
+                    <p class="news-preview__text news-preview__text--big">Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...</p>
+                    <div class="news-preview__more news-preview__more--big"><span>Прочитать</span>
+                      <svg class="icon icon-arrow ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                  </div></a>
+              </div>
+              <div class="news-preview__roll"><a class="news-preview__el" href="#">
+                  <div class="news-preview__date">
+                    <svg class="icon icon-clock ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
+                    </svg><span>15.02.2018</span>
+                  </div>
+                  <p class="news-preview__text">Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...</p>
+                  <div class="news-preview__more"><span>Прочитать</span>
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div></a><a class="news-preview__el" href="#">
+                  <div class="news-preview__date">
+                    <svg class="icon icon-clock ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
+                    </svg><span>15.02.2018</span>
+                  </div>
+                  <p class="news-preview__text">Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...</p>
+                  <div class="news-preview__more"><span>Прочитать</span>
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div></a><a class="news-preview__el" href="#">
+                  <div class="news-preview__date">
+                    <svg class="icon icon-clock ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
+                    </svg><span>15.02.2018</span>
+                  </div>
+                  <p class="news-preview__text">Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...</p>
+                  <div class="news-preview__more"><span>Прочитать</span>
+                    <svg class="icon icon-arrow ">
+                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                    </svg>
+                  </div></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Предпросмотр Новостей-->
+        <!-- Конец Контента-->
+        <!-- Подвал-->
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__wrap"><a class="footer__logo" href="index.html"><img src="app/img/general/logo--light.png" alt="Texture Logo Light"></a>
+              <div class="footer__social"><a class="footer__el" href="#">
+                  <svg class="icon icon-vk ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
+                  </svg></a><a class="footer__el" href="#">
+                  <svg class="icon icon-od ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#od"></use>
+                  </svg></a><a class="footer__el" href="#">
+                  <svg class="icon icon-fb ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#fb"></use>
+                  </svg></a><a class="footer__el" href="#">
+                  <svg class="icon icon-inst ">
+                    <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
+                  </svg></a>
+              </div>
+              <div class="footer__address">
+                <svg class="icon icon-placeholder ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#placeholder"></use>
+                </svg>
+                <div class="footer__block"><span class="footer__title">Адрес:</span><a class="footer__link" href="#">г. Ижевск, Советская д. 19</a></div>
+              </div>
+              <div class="footer__email">
+                <svg class="icon icon-email ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#email"></use>
+                </svg>
+                <div class="footer__block"><span class="footer__title">Почта:</span><a class="footer__link" href="mailto:shekotoff@mail.ru">shekotoff@mail.ru</a></div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- Конец Подвала-->
       </div>
+      <!-- Скрипты-->
+      <!-- Библиотеки	-->
       <script src="app/js/libs.min.js"></script>
-      <script src="app/js/main.js"></script>
+      <!-- Собственные скрипты-->
+      <script src="app/js/app.js"></script>
     </body>
   </head>
 </html>

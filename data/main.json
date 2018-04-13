@@ -1,0 +1,181 @@
+{
+  "general": {
+    "logo": {
+      "src": "app/img/general/logo.png",
+      "alt": "Texture Logo",
+      "name": "Texture - design studio"
+    },
+    "logoLight": {
+      "src": "app/img/general/logo--light.png",
+      "alt": "Texture Logo Light"
+    },
+    "btn": {
+      "order": "Стать партнером"
+    },
+    "icons": {
+      "arrow": "arrow",
+      "arrowBig": "arrow--big",
+      "search": "search",
+      "clock": "clock",
+      "place": "placeholder",
+      "email": "email"
+    },
+    "social": [
+      {
+        "icon": "vk"
+      },
+      {
+        "icon": "od"
+      },
+      {
+        "icon": "fb"
+      },
+      {
+        "icon": "inst"
+      }
+    ],
+    "address": {
+      "text": "Адрес:",
+      "link": {
+        "text": "г. Ижевск, Советская д. 19",
+        "href": "#"
+      }
+    },
+    "place": {
+      "text": "Почта:",
+      "link": {
+        "text": "shekotoff@mail.ru",
+        "href": "mailto:shekotoff@mail.ru"
+      }
+    }
+  },
+  "topBanner": {
+    "list": [
+      {
+        "brand": "Italissima Home",
+        "name": "by Eva Minge",
+        "imgSrc": "app/img/content/main/top-banner/1.jpg",
+        "imgAlt": "Photo - Slide 1"
+      },
+      {
+        "brand": "Italissima Home 2",
+        "name": "by Eva Minge",
+        "imgSrc": "app/img/content/main/top-banner/1.jpg",
+        "imgAlt": "Photo - Slide 2"
+      }
+    ],
+    "texts": [
+      {
+        "text": "Последние коллекции"
+      },
+      {
+        "text": "модных текстильных"
+      },
+      {
+        "text": "производителей"
+      }
+    ]
+  },
+  "topInfo": {
+    "text": "Мы ориентированы на взаимовыгодное сотрудничество с архитекторами, архитектурными бюро, дизайн-студиями, интерьерными дизайнерами, и готовы предложить самый комфортный и удобный сервис.",
+    "img": {
+      "src": "app/img/content/main/top-info/chair.png",
+      "alt": "Chair"
+    }
+  },
+  "brandsPreview": {
+    "title": "Дизайнер понимает, что достиг совершенства не тогда, когда ему нечего добавить, а тогда, когда нечего убрать.",
+    "name": {
+      "ru": "Антуан де Сент-Экзюпери",
+      "eng": "(Antoine de Saint-Exupéry)"
+    },
+    "text": "В студийной экспозиции, собрана обширная библиотека интерьерных тканей, от ведущих дизайнеров Европы и Москвы. Громкие имена, прямые поставки, оптимальные сроки, последние тренды и все самое модное из мира текстиля.",
+    "link": {
+      "text": "Посмотреть бренды",
+      "href": "brands.html"
+    },
+    "img": {
+      "one": {
+        "src": "app/img/content/main/brands-preview/1.jpg",
+        "alt": "Brands Preview 1"
+      },
+      "two": {
+        "src": "app/img/content/main/brands-preview/2.jpg",
+        "alt": "Brands Preview 2"
+      }
+    }
+  },
+  "information": {
+    "team": {
+      "title": "Наша команда",
+      "text": "Интуиция и чувство тренда и тенденций, - отличительная черта нашей команды. Мы понимаем искусство в деталях. Создаем шедевры. Поражаем воображение. Создаем шедевры. Поражаем воображение",
+      "link": {
+        "text": "подробнее",
+        "href": "team.html"
+      }
+    },
+    "project": {
+      "title": "Наши проекты",
+      "list": [
+        {
+          "imgSrc": "app/img/content/main/information/1.jpg",
+          "imgAlt": "Project 1",
+          "name": "Svetlana Svetlana",
+          "author": "Svetlana Svetlana"
+        },
+        {
+          "imgSrc": "app/img/content/main/information/2.jpg",
+          "imgAlt": "Project 2",
+          "name": "Svetlana Svetlana",
+          "author": "Svetlana Svetlana"
+        },
+        {
+          "imgSrc": "app/img/content/main/information/3.jpg",
+          "imgAlt": "Project 3",
+          "name": "Svetlana Svetlana",
+          "author": "Svetlana Svetlana"
+        },
+        {
+          "imgSrc": "app/img/content/main/information/3.jpg",
+          "imgAlt": "Project 4",
+          "name": "Svetlana Svetlana",
+          "author": "Svetlana Svetlana"
+        }
+      ]
+    }
+  },
+  "newsPreview": {
+    "title": "Новости",
+    "more": "Прочитать",
+    "list": [
+      {
+        "tag": "Новость",
+        "date": "15.02.2018",
+        "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+        "imgSrc": "app/img/content/main/news-preview/1.jpg",
+        "imgAlt": "News Preview 1"
+      },
+      {
+        "tag": "Акции",
+        "date": "15.02.2018",
+        "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+        "imgSrc": "app/img/content/main/news-preview/1.jpg",
+        "imgAlt": "News Preview 1"
+      }
+    ],
+    "roll": [
+      {
+        "date": "15.02.2018",
+        "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны..."
+      },
+      {
+        "date": "15.02.2018",
+        "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны..."
+      },
+      {
+        "date": "15.02.2018",
+        "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны..."
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+section.news-preview
+  .container
+    h2.news-preview__title.title= main.newsPreview.title
+    .news-preview__wrap
+      .news-preview__list
+        each item in main.newsPreview.list
+          a.news-preview__item(href="#")
+            .news-preview__img
+              img(src=item["imgSrc"], alt=item["imgAlt"])
+            span.news-preview__tag= item["tag"]
+            .news-preview__date.news-preview__date--big
+              +icon(main.general.icons.clock)
+              span= item["date"]
+            .news-preview__descr
+              p.news-preview__text.news-preview__text--big= item["text"]
+              .news-preview__more.news-preview__more--big
+                span= main.newsPreview.more
+                +icon(main.general.icons.arrow)
+      .news-preview__roll
+        each el in main.newsPreview.roll
+          a.news-preview__el(href="#")
+            .news-preview__date
+              +icon(main.general.icons.clock)
+              span= el["date"]
+            p.news-preview__text= el["text"]
+            .news-preview__more
+              span= main.newsPreview.more
+              +icon(main.general.icons.arrow)
+      
+      

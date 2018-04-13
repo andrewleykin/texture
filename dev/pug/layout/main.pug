@@ -4,8 +4,11 @@ block variables
 doctype html
 html(lang="ru-RU")
 	head
-		meta(charset="utf-8")
+		// Заголовок сайта
 		title #{title}
+
+		// Мета теги
+		meta(charset="utf-8")
 		meta(http-equiv='X-UA-Compatible', content="IE = edge")
 		meta(name="viewport" content="width=device-width,initial-scale=1")
 		meta(name="keywords" content="")
@@ -13,7 +16,10 @@ html(lang="ru-RU")
 		//- favicon block start
 		//- favicon block end
 
+		// Стили
+		// Библиотеки
 		link(rel="stylesheet" type='text/css' href="app/css/foundation.css")
+		// Собственные стили
 		link(rel="stylesheet" type='text/css' href="app/css/main.css")
 
 		<!--[if lt IE 9]>
@@ -21,9 +27,18 @@ html(lang="ru-RU")
 		<![endif]-->
 		body
 			.wrapper
+				// Шапка
 				include ../section/header
+				// Конец Шапки
+				// Контент
 				block content
+				// Конец Контента
+				// Подвал
 				include ../section/footer
+				// Конец Подвала
+			// Скрипты
+			// Библиотеки	
 			script(src="app/js/libs.min.js")
+			// Собственные скрипты
 			script(src="app/js/app.js")
 			block script

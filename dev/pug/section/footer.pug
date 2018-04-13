@@ -1,0 +1,19 @@
+footer.footer
+  .container
+    .footer__wrap
+      a.footer__logo(href="index.html")
+        img(src=main.general.logoLight.src alt=main.general.logoLight.alt)
+      .footer__social
+        each val in main.general.social
+          a.footer__el(href="#")
+            +icon(val["icon"])
+      .footer__address
+        +icon(main.general.icons.place)
+        .footer__block
+          span.footer__title= main.general.address.text
+          a.footer__link(href=main.general.address.link.href)= main.general.address.link.text
+      .footer__email
+        +icon(main.general.icons.email)
+        .footer__block
+          span.footer__title= main.general.place.text
+          a.footer__link(href=main.general.place.link.href)= main.general.place.link.text

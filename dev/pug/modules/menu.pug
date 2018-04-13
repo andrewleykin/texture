@@ -1,0 +1,5 @@
+nav.menu
+  ul.menu__list
+    each val in nav.topNav
+      li.menu__item
+        a.menu__link(href=val["link"])= val["text"]

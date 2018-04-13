@@ -1,0 +1,134 @@
+.news-preview
+  background-color #f9f8f8
+  padding 90px 0
+
+.news-preview__title
+  margin-bottom 96px
+
+.news-preview__wrap
+  display flex
+
+.news-preview__list
+  max-width 718px
+  width 100%
+  margin-right 82px
+  display flex
+  align-self flex-start
+
+.news-preview__item
+  position relative
+  display block
+  &+&
+    margin-left 82px
+  &:hover
+    .news-preview__more--big
+      span:after
+        width 0
+      .icon
+        margin-left 17px
+
+.news-preview__tag
+  display block
+  position absolute
+  top 0
+  left 0
+  color #e5e5e5
+  letter-spacing 0.08px
+  size(114px, 49px)
+  background-color accent-color
+  display flex
+  justify-content center
+  align-items center
+
+.news-preview__date
+  display flex
+  align-items center
+  color #c0c0c0
+  font-weight 300
+  letter-spacing 0.08px
+  margin-bottom 15px
+  .icon
+    size(13px, 13px)
+    fill #d5d5d5
+    margin-right 8px
+  &--big
+    margin-bottom 0
+    justify-content center
+    position absolute
+    top 0
+    right 0
+    background-color white
+    size(133px, 49px)
+
+.news-preview__descr
+  position absolute
+  bottom -30px
+  right -42px
+  box-shadow 0 16px 32px rgba(155, 155, 155, 0.1)
+  background-color white
+  opacity 0.9
+  max-width 330px
+  padding 25px 35px
+  
+
+.news-preview__text
+  color text-color
+  line-height 22px
+  letter-spacing 0.08px
+  height 42px
+  overflow hidden
+  text-overflow ellipsis
+  display block
+  margin-bottom 15px
+  &--big
+    height 64px
+    margin-bottom 25px
+
+.news-preview__more
+  display flex
+  align-items: center
+  color text-color
+  line-height 22px
+  letter-spacing 0.08px
+  span
+    display block
+    position relative
+    &:after
+      content ''
+      display block
+      position absolute
+      width 100%
+      height 1px
+      background text-color
+      bottom 4px
+      @extend .trs
+      transform-origin left
+  .icon
+    size(8px, 12px)
+    fill accent-color
+    margin-left 11px
+    @extend .trs
+  &--big
+    text-transform uppercase
+    span
+      &:after
+        bottom 0
+    .icon
+      size(12px, 20px)
+      margin-left 13px
+
+.news-preview__el
+  display block
+  padding-bottom 28px
+  padding-top 31px
+  border-bottom 1px solid #e1e1e1
+  &:first-child
+    padding-top 0
+  &:last-child
+    border-bottom none
+  &:hover
+    .news-preview__more
+      span:after
+        width 0
+      .icon
+        margin-left 14px

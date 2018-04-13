@@ -1,0 +1,36 @@
+.menu__list
+  display flex
+  border-bottom 1px solid #ececec
+
+.menu__item
+  &+&
+    margin-left 33px
+
+.menu__link
+  color accent-color
+  font-size 14px
+  font-weight 300
+  line-height 25px
+  text-transform uppercase
+  letter-spacing 0.35px
+  display block
+  padding 18px 0 24px
+  position relative
+  
+  &:hover
+    &:after
+      width 100%
+  
+  &:after
+    content ''
+    size(0px, 3px)
+    display block
+    background accent-color
+    position absolute
+    bottom -2px
+    left 0
+    @extend .trs
+  
+  &.active
+    &:after
+      width 100%

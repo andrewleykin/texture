@@ -1,0 +1,24 @@
+section.top-banner
+  .top-banner__social
+        each social in main.general.social
+          a.top-banner__link(href="#")
+            +icon(social["icon"])
+  .container
+    .top-banner__wrap
+      .top-banner__texts
+        each text in main.topBanner.texts
+          span.top-banner__text= text["text"]
+      .top-banner__slider
+        .top-banner__controls
+          .top-banner__control.top-banner__control--prev
+            +icon(main.general.icons.arrow)
+          .top-banner__control.top-banner__control--next
+            +icon(main.general.icons.arrow)
+        .top-banner__list
+          each item in main.topBanner.list
+            .top-banner__item
+              .top-banner__img
+                img(src=item["imgSrc"] alt=item["imgAlt"])
+              .top-banner__info.more.more--big
+                span.top-banner__brand= item["brand"]
+                span.top-banner__name= item["name"]
