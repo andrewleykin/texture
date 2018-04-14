@@ -4,3 +4,30 @@ section.section.contacts
       .contacts__map
         iframe(src='https://snazzymaps.com/embed/64442', width='749px', height='418px', style='border:none;')
       .contacts__info
+        h2.title.title--dark.contacts__title= contacts.title
+        .contacts__block
+          +icon(main.general.icons.placeFill)
+          span.contacts__text= contacts.address
+        .contacts__block
+          +icon(main.general.icons.phone)
+          a.contacts__link(href=contacts.phone.link)= contacts.phone.text
+        .contacts__block
+          +icon(main.general.icons.mobile)
+          a.contacts__link(href=contacts.mobile.link)= contacts.mobile.text
+        .contacts__block
+          +icon(main.general.icons.emailFill)
+          a.contacts__link(href=main.general.email.link.href)= main.general.email.link.text
+        .contacts__block
+          +icon(main.general.icons.clock)
+          .contacts__mode
+            span.contacts__subtitle= contacts.mode.title
+            p.contacts__text
+              span.contacts__text--bold= contacts.mode.wake.text
+              span= contacts.mode.wake.num
+            .contacts__row
+              p.contacts__text
+                span.contacts__text--bold= contacts.mode.saturday.text
+                span= contacts.mode.saturday.num
+              p.contacts__text
+                span.contacts__text--bold= contacts.mode.sunday.text
+                span= contacts.mode.sunday.num

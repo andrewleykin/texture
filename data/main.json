@@ -19,7 +19,11 @@
       "clock": "clock",
       "place": "placeholder",
       "email": "email",
-      "close": "close"
+      "close": "close",
+      "emailFill": "email--fill",
+      "placeFill": "placeholder--fill",
+      "mobile": "mobile",
+      "phone": "phone"
     },
     "social": [
       {
@@ -42,7 +46,7 @@
         "href": "#"
       }
     },
-    "place": {
+    "email": {
       "text": "Почта:",
       "link": {
         "text": "shekotoff@mail.ru",
