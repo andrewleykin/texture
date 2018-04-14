@@ -20,6 +20,8 @@
   display block
   &+&
     margin-left 82px
+  &:nth-child(4)
+    margin-left 0
   &:hover
     .news-preview__more--big
       span:after
@@ -39,6 +41,8 @@
   display flex
   justify-content center
   align-items center
+  &--last
+    size(195px, 49px)
 
 .news-preview__date
   display flex
@@ -69,6 +73,10 @@
   opacity 0.9
   max-width 330px
   padding 25px 35px
+  &--last
+    right unset
+    left 30px
+    max-width 440px
   
 
 .news-preview__text

@@ -1,0 +1,65 @@
+{
+  "title": "Наша команда",
+  "list": [
+    {
+      "imgSrc": "app/img/content/team/1.jpg",
+      "imgAlt": "Глеб Щекотов",
+      "name": "Глеб Щекотов",
+      "post": "директор по развитию",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    },
+    {
+      "imgSrc": "app/img/content/team/2.jpg",
+      "imgAlt": "Константин Родин",
+      "name": "Константин Родин",
+      "post": "исполнительный директор",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    },
+    {
+      "imgSrc": "app/img/content/team/3.jpg",
+      "imgAlt": "Елена Махнева",
+      "name": "Елена Махнева",
+      "post": "ведущий дизайнер студии",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    },
+    {
+      "imgSrc": "app/img/content/team/1.jpg",
+      "imgAlt": "Глеб Щекотов 2",
+      "name": "Глеб Щекотов",
+      "post": "директор по развитию",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    },
+    {
+      "imgSrc": "app/img/content/team/2.jpg",
+      "imgAlt": "Константин Родин 2",
+      "name": "Константин Родин",
+      "post": "исполнительный директор",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    },
+    {
+      "imgSrc": "app/img/content/team/3.jpg",
+      "imgAlt": "Елена Махнева 2",
+      "name": "Елена Махнева",
+      "post": "ведущий дизайнер студии",
+      "mailText": "demina@izh.com",
+      "mailLink": "mailto:demina@izh.com",
+      "fbText": "cтраница facebook",
+      "fbLink": "#"
+    }
+  ]
+}

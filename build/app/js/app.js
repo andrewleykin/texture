@@ -25,8 +25,35 @@
 // функция для слайдера на главной сверху
 (function(){
 	var slider = $('.top-banner__list');
-	var prev = $('.top-banner__control--prev');
-	var next = $('.top-banner__control--next');
+	var controls = slider.siblings('.top-banner__controls')
+	var prev = controls.find('.control--prev');
+	var next = controls.find('.control--next');
+
+	if(slider.length) {
+		slider.slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: false,
+			fade: true,
+			cssEase: 'linear'
+		});
+
+		prev.click(function(){
+			slider.slick('slickPrev')
+		});
+
+		next.click(function(){
+			slider.slick('slickNext')
+		});
+	}
+})();
+
+// функция для слайдера на странице о компании
+(function(){
+	var slider = $('.about__list');
+	var controls = slider.siblings('.about__controls')
+	var prev = controls.find('.control--prev');
+	var next = controls.find('.control--next');
 
 	if(slider.length) {
 		slider.slick({
@@ -69,6 +96,35 @@
 		next.click(function(){
 			slider.slick('slickNext')
 		});
+	}
+})();
+
+// Функция для Формы заказа в Модальном окне
+(function(){
+	var form = $('.order__form'),
+			inputs = form.find('input, textarea');
+
+	inputs.each(function() {
+		$(this).focus(function() {
+			$(this).siblings().addClass('hide');
+		});
+		$(this).blur(function(){
+			if(!($(this).val())){
+				$(this).siblings().removeClass('hide')
+			};
+		});
+	});
+
+	if(form) {
+		clearForm();
+	}
+
+	function clearForm(){
+		var newVal = '';
+
+		for(i=0;i<inputs.length;i++) {
+			inputs.eq(i).val(newVal);
+		}
 	}
 })();
 $(document).ready(function () {

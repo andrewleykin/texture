@@ -1,0 +1,8 @@
+a.news-preview__el(href="#")
+  .news-preview__date
+    +icon(main.general.icons.clock)
+    span= el["date"]
+  p.news-preview__text= el["text"]
+  .news-preview__more
+    span= main.newsPreview.more
+    +icon(main.general.icons.arrow)

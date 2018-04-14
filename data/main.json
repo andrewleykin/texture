@@ -18,7 +18,8 @@
       "search": "search",
       "clock": "clock",
       "place": "placeholder",
-      "email": "email"
+      "email": "email",
+      "close": "close"
     },
     "social": [
       {
@@ -160,7 +161,7 @@
         "date": "15.02.2018",
         "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
         "imgSrc": "app/img/content/main/news-preview/1.jpg",
-        "imgAlt": "News Preview 1"
+        "imgAlt": "News Preview 2"
       }
     ],
     "roll": [
@@ -177,5 +178,55 @@
         "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны..."
       }
     ]
+  },
+  "order": {
+    "title": "Заполните данные",
+    "form": {
+      "list": [
+        {
+          "type": "text",
+          "name": "surname",
+          "id": "surname",
+          "label": "Фамилия..."
+        },
+        {
+          "type": "text",
+          "name": "name",
+          "id": "name",
+          "label": "Имя..."
+        },
+        {
+          "type": "text",
+          "name": "company",
+          "id": "company",
+          "label": "Название компании..."
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "id": "email",
+          "label": "E-mail..."
+        }
+      ],
+      "phone": {
+        "type": "phone",
+        "name": "phone",
+        "id": "phone",
+        "label": "Телефон..."
+      },
+      "btn": "Отправить запрос",
+      "textarea": {
+        "name": "message",
+        "id": "message",
+        "label": "Коментарий..."
+      }
+    },
+    "consent": {
+      "text": "Отправляя заявку, Вы даете ",
+      "link": {
+        "text": "согласие на обработку персональных данных",
+        "href": "#"
+      }
+    }
   }
 }

@@ -8,6 +8,15 @@
   letter-spacing 1.4px
   cursor pointer
   position relative
+  @extend .trs
+
+  &--dark
+    color #dedede
+    box-shadow 0 0 39px 4px rgba(217, 217, 217, 0.18)
+    border-radius 2px
+    background rgba(67, 50, 50, 0.99)
+    &:hover
+      background lighten(rgba(67, 50, 50, 0.99), 20%)
 
   &--border
     border-hover = 1px solid #bfb7b7
@@ -19,7 +28,7 @@
     &:before,&:after
       content ''
       display block
-      size(98px, 25px)
+      size(100%, 100%)
       position absolute
       transform scale(0)
       @extend .trs

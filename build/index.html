@@ -33,7 +33,7 @@
                 </nav>
               </div>
               <div class="header__action">
-                <div class="btn btn--border">Стать партнером</div>
+                <div class="btn btn--border" data-remodal-target="order">Стать партнером</div>
               </div>
             </div>
           </div>
@@ -58,19 +58,21 @@
           </div>
           <div class="container">
             <div class="top-banner__wrap">
-              <div class="top-banner__texts"><span class="top-banner__text">Последние коллекции</span><span class="top-banner__text">модных текстильных</span><span class="top-banner__text">производителей</span>
+              <div class="top-banner__texts texts"><span class="top-banner__text">Последние коллекции</span><span class="top-banner__text">модных текстильных</span><span class="top-banner__text">производителей</span>
               </div>
               <div class="top-banner__slider">
                 <div class="top-banner__controls">
-                  <div class="top-banner__control top-banner__control--prev">
-                    <svg class="icon icon-arrow ">
-                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
-                    </svg>
-                  </div>
-                  <div class="top-banner__control top-banner__control--next">
-                    <svg class="icon icon-arrow ">
-                      <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
-                    </svg>
+                  <div class="controls">
+                    <div class="control control--prev">
+                      <svg class="icon icon-arrow ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
+                    <div class="control control--next">
+                      <svg class="icon icon-arrow ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#arrow"></use>
+                      </svg>
+                    </div>
                   </div>
                 </div>
                 <div class="top-banner__list">
@@ -143,29 +145,37 @@
                   </div>
                 </div>
                 <div class="information__list">
-                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/1.jpg" alt="Project 1">
+                  <div class="information__item"><a class="information__img search__block" href="#"><img src="app/img/content/main/information/1.jpg" alt="Project 1">
                       <div class="information__search">
-                        <svg class="icon icon-search ">
-                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
-                        </svg>
+                        <div class="search">
+                          <svg class="icon icon-search ">
+                            <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                          </svg>
+                        </div>
                       </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
-                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/2.jpg" alt="Project 2">
+                  <div class="information__item"><a class="information__img search__block" href="#"><img src="app/img/content/main/information/2.jpg" alt="Project 2">
                       <div class="information__search">
-                        <svg class="icon icon-search ">
-                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
-                        </svg>
+                        <div class="search">
+                          <svg class="icon icon-search ">
+                            <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                          </svg>
+                        </div>
                       </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
-                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 3">
+                  <div class="information__item"><a class="information__img search__block" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 3">
                       <div class="information__search">
-                        <svg class="icon icon-search ">
-                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
-                        </svg>
+                        <div class="search">
+                          <svg class="icon icon-search ">
+                            <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                          </svg>
+                        </div>
                       </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
-                  <div class="information__item"><a class="information__img" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 4">
+                  <div class="information__item"><a class="information__img search__block" href="#"><img src="app/img/content/main/information/3.jpg" alt="Project 4">
                       <div class="information__search">
-                        <svg class="icon icon-search ">
-                          <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
-                        </svg>
+                        <div class="search">
+                          <svg class="icon icon-search ">
+                            <use xlink:href="app/img/svg/symbol/sprite.svg#search"></use>
+                          </svg>
+                        </div>
                       </div></a><span class="information__name">Svetlana Svetlana</span><span class="information__author">Svetlana Svetlana</span></div>
                 </div>
               </div>
@@ -193,7 +203,7 @@
                       </svg>
                     </div>
                   </div></a><a class="news-preview__item" href="#">
-                  <div class="news-preview__img"><img src="app/img/content/main/news-preview/1.jpg" alt="News Preview 1"></div><span class="news-preview__tag">Акции</span>
+                  <div class="news-preview__img"><img src="app/img/content/main/news-preview/1.jpg" alt="News Preview 2"></div><span class="news-preview__tag">Акции</span>
                   <div class="news-preview__date news-preview__date--big">
                     <svg class="icon icon-clock ">
                       <use xlink:href="app/img/svg/symbol/sprite.svg#clock"></use>
@@ -248,41 +258,85 @@
         </section>
         <!-- Предпросмотр Новостей-->
         <!-- Конец Контента-->
-        <!-- Подвал-->
-        <footer class="footer">
-          <div class="container">
-            <div class="footer__wrap"><a class="footer__logo" href="index.html"><img src="app/img/general/logo--light.png" alt="Texture Logo Light"></a>
-              <div class="footer__social"><a class="footer__el" href="#">
-                  <svg class="icon icon-vk ">
-                    <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
-                  </svg></a><a class="footer__el" href="#">
-                  <svg class="icon icon-od ">
-                    <use xlink:href="app/img/svg/symbol/sprite.svg#od"></use>
-                  </svg></a><a class="footer__el" href="#">
-                  <svg class="icon icon-fb ">
-                    <use xlink:href="app/img/svg/symbol/sprite.svg#fb"></use>
-                  </svg></a><a class="footer__el" href="#">
-                  <svg class="icon icon-inst ">
-                    <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
-                  </svg></a>
+        <!-- Модальное окно - Форма заказа-->
+        <div class="remodal order" data-remodal-id="order">
+          <button class="remodal-close order__close" data-remodal-action="close">
+            <svg class="icon icon-close ">
+              <use xlink:href="app/img/svg/symbol/sprite.svg#close"></use>
+            </svg>
+          </button>
+          <div class="order__wrap">
+            <h3 class="order__title">Заполните данные</h3>
+            <form class="order__form" action="#">
+              <div class="order__list">
+                <div class="order__block">
+                  <input class="order__input" type="text" name="surname" id="surname">
+                  <label class="order__label" for="surname">Фамилия...</label>
+                </div>
+                <div class="order__block">
+                  <input class="order__input" type="text" name="name" id="name">
+                  <label class="order__label" for="name">Имя...</label>
+                </div>
+                <div class="order__block">
+                  <input class="order__input" type="text" name="company" id="company">
+                  <label class="order__label" for="company">Название компании...</label>
+                </div>
+                <div class="order__block">
+                  <input class="order__input" type="email" name="email" id="email">
+                  <label class="order__label" for="email">E-mail...</label>
+                </div>
+                <div class="order__col">
+                  <div class="order__block">
+                    <input class="order__input" type="phone" name="phone" id="phone">
+                    <label class="order__label" for="phone">Телефон...</label>
+                  </div>
+                  <button class="btn btn--dark order__btn">Отправить запрос</button>
+                </div>
+                <div class="order__block">
+                  <textarea class="order__textarea" name="message" id="message"></textarea>
+                  <label class="order__label" for="message">Коментарий...</label>
+                </div>
               </div>
-              <div class="footer__address">
-                <svg class="icon icon-placeholder ">
-                  <use xlink:href="app/img/svg/symbol/sprite.svg#placeholder"></use>
-                </svg>
-                <div class="footer__block"><span class="footer__title">Адрес:</span><a class="footer__link" href="#">г. Ижевск, Советская д. 19</a></div>
-              </div>
-              <div class="footer__email">
-                <svg class="icon icon-email ">
-                  <use xlink:href="app/img/svg/symbol/sprite.svg#email"></use>
-                </svg>
-                <div class="footer__block"><span class="footer__title">Почта:</span><a class="footer__link" href="mailto:shekotoff@mail.ru">shekotoff@mail.ru</a></div>
-              </div>
+            </form>
+            <p class="order__consent">Отправляя заявку, Вы даете <a class="order__link" href="#">согласие на обработку персональных данных</a></p>
+          </div>
+        </div>
+        <!-- Конец Модального окна - Форма заказа-->
+      </div>
+      <!-- Подвал-->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap"><a class="footer__logo" href="index.html"><img src="app/img/general/logo--light.png" alt="Texture Logo Light"></a>
+            <div class="footer__social"><a class="footer__el" href="#">
+                <svg class="icon icon-vk ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
+                </svg></a><a class="footer__el" href="#">
+                <svg class="icon icon-od ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#od"></use>
+                </svg></a><a class="footer__el" href="#">
+                <svg class="icon icon-fb ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#fb"></use>
+                </svg></a><a class="footer__el" href="#">
+                <svg class="icon icon-inst ">
+                  <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
+                </svg></a>
+            </div>
+            <div class="footer__address">
+              <svg class="icon icon-placeholder ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#placeholder"></use>
+              </svg>
+              <div class="footer__block"><span class="footer__title">Адрес:</span><a class="footer__link" href="#">г. Ижевск, Советская д. 19</a></div>
+            </div>
+            <div class="footer__email">
+              <svg class="icon icon-email ">
+                <use xlink:href="app/img/svg/symbol/sprite.svg#email"></use>
+              </svg>
+              <div class="footer__block"><span class="footer__title">Почта:</span><a class="footer__link" href="mailto:shekotoff@mail.ru">shekotoff@mail.ru</a></div>
             </div>
           </div>
-        </footer>
-        <!-- Конец Подвала-->
-      </div>
+        </div>
+      </footer>
+      <!-- Конец Подвала-->
       <!-- Скрипты-->
       <!-- Библиотеки	-->
       <script src="app/js/libs.min.js"></script>

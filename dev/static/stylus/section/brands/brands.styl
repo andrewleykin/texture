@@ -1,0 +1,92 @@
+.brands
+  padding-bottom 90px
+
+.brands__list
+  display flex
+  flex-wrap wrap
+  justify-content space-between
+
+.brands__item
+  width 100%
+  max-width 334px
+  display flex
+  flex-direction column
+  margin-bottom 80px
+  &:nth-child(n+10)
+    margin-bottom 0
+    .brands__logo
+      margin-bottom 45px
+  &:nth-child(7),
+  &:nth-child(10)
+    .brands__logo
+      align-items: flex-end
+  &:nth-child(11)
+    .brands__logo
+      padding-top 10px
+    
+
+.brands__logo
+  max-width 298px
+  height 78px
+  display flex
+  align-items: center
+  justify-content center
+  margin-bottom 35px
+
+.brands__photo
+  margin-bottom 78px
+  position relative
+  align-self flex-start
+  &:after
+    content ''
+    display block
+    width 100%
+    height 100%
+    border 8px solid #ececec
+    position absolute
+    bottom -36px
+    right -36px
+    z-index 1
+
+.brands__collection
+  width 204px
+  height 65px
+  padding-left 34px
+  background-color #ececec
+  display flex
+  align-items center
+  position absolute
+  left 43px
+  bottom -28px
+  color dark-color
+  text-transform uppercase
+  letter-spacing 1.16px
+  z-index 2
+  @extend .trs
+  .icon
+    size(16px, 11px)
+    fill #725c5c
+    margin-left 26px
+    @extend .trs
+  &:hover
+    color darken(dark-color, 20%)
+    width 283px
+    padding-left 40px
+    .icon
+      margin-left 40px
+
+.brands__info
+  padding-left 44px
+
+.brands__name
+  color #3c2f2f
+  font-size 19px
+  font-weight 700
+  letter-spacing 0.47px
+  margin-bottom 15px
+
+.brands__author
+  color #b3b3b3
+  font-size 14px
+  font-style italic
+  letter-spacing 0.35px

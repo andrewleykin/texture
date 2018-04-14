@@ -5,15 +5,12 @@ section.top-banner
             +icon(social["icon"])
   .container
     .top-banner__wrap
-      .top-banner__texts
+      .top-banner__texts.texts
         each text in main.topBanner.texts
           span.top-banner__text= text["text"]
       .top-banner__slider
         .top-banner__controls
-          .top-banner__control.top-banner__control--prev
-            +icon(main.general.icons.arrow)
-          .top-banner__control.top-banner__control--next
-            +icon(main.general.icons.arrow)
+          include ../../modules/controls
         .top-banner__list
           each item in main.topBanner.list
             .top-banner__item

@@ -1,0 +1,90 @@
+.about
+  padding 190px 0 160px
+
+.about__top
+  position relative
+  margin-bottom 130px
+  &:before
+    content ''
+    position absolute
+    width 533px
+    height 242px
+    left 0
+    top 85px
+    z-index -1
+    box-shadow 0px -6px 52px -21px rgba(0,0,0,0.3)
+
+.about__texts
+  position absolute
+  top 85px
+  z-index 2
+  span
+    &:nth-child(1)
+      padding 30px 32px 12px 44px
+    &:nth-child(2)
+      padding 14px 32px 32px 44px
+      box-shadow -3px 1px 15px -10px rgba(0,0,0,0.3)
+    &:nth-child(3)
+      padding 7px 24px 27px 44px
+
+.about__slider
+  width 100%
+  max-width 860px
+  margin-left auto
+  position relative
+
+.about__controls
+  position absolute
+  z-index 2
+  bottom 110px
+  left -74px
+
+.about__info
+  position relative
+  padding-left 40px
+  margin-bottom 88px
+  &:before
+    content ''
+    display block
+    position absolute
+    left 0
+    width 3px
+    height 407px
+    background-color text-color
+  &:hover
+    &:before
+      animation anim 1.4s linear
+
+.about__text
+  color dark-color
+  font-size 19px
+  font-weight 300
+  line-height 25px
+  font-weight 300
+  &:first-child
+    font-weight 700
+  &+&
+    margin-top 26px
+
+.about__mark
+  position absolute
+  bottom 0
+  right 0
+  z-index -1
+
+.about__social
+  display flex
+  flex-direction row-reverse
+  justify-content flex-end
+  margin-left 40px
+
+.about__el
+  cursor pointer
+  &+&
+    margin-right 17px
+  .icon
+    size(29px, 28px)
+    fill #cccccc
+    @extend .trs
+    &:hover
+      fill #675656

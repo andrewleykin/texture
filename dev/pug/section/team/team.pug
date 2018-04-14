@@ -1,0 +1,13 @@
+section.section.team
+  .container
+    .team__wrap
+      h2.title.title--dark.title--section.team__title= team.title
+      .team__list
+        each val in team.list
+          .team__item
+            .team__img
+              img(src=val["imgSrc"], alt=val["imgAlt"])
+            h3.team__name= val["name"]
+            span.team__post= val["post"]
+            a.team__mail(href=val["mailLink"])= val["mailText"]
+            a.team__fb(href=val["fbLink"])= val["fbText"]

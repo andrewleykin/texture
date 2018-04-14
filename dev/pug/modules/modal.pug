@@ -1,0 +1,21 @@
+.remodal.order(data-remodal-id="order")
+  button.remodal-close.order__close(data-remodal-action="close")
+    +icon(main.general.icons.close)
+  .order__wrap
+    h3.order__title= main.order.title
+    form.order__form(action="#")
+      .order__list
+        each input in main.order.form.list
+          .order__block
+            input.order__input(type=input["type"] name=input["name"] id=input["id"])
+            label.order__label(for=input["id"])= input["label"]
+        .order__col
+          .order__block
+            input.order__input(type=main.order.form.phone.type name=main.order.form.phone.name id=main.order.form.phone.id)
+            label.order__label(for=main.order.form.phone.id)= main.order.form.phone.label
+          button.btn.btn--dark.order__btn= main.order.form.btn
+        .order__block
+          textarea.order__textarea(name=main.order.form.textarea.name id=main.order.form.textarea.id)
+          label.order__label(for=main.order.form.textarea.id)= main.order.form.textarea.label
+    p.order__consent= main.order.consent.text
+      a.order__link(href=main.order.consent.link.href)= main.order.consent.link.text

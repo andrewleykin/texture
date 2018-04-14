@@ -1,0 +1,89 @@
+.order
+  max-width 706px
+  padding 45px 52px 60px 55px
+  background-color #f6f6f6
+
+.order__close
+  right 25px
+  top 20px
+  left unset
+  &:before
+    display none
+  &:hover
+    .icon
+      fill darken(#cdbbbe, 40%)
+  .icon
+    size(21px, 21px)
+    fill #cdbbbe
+    @extend .trs
+
+.order__title
+  margin-bottom 49px
+  text-align center
+  color dark-color
+  font-size 24px
+  font-weight 900
+
+.order__form
+  max-width 599px
+  margin 0 auto
+
+.order__list
+  display flex
+  justify-content space-between
+  flex-wrap wrap
+
+.order__block,
+.order__col
+  position relative
+  width 100%
+  max-width 293px
+
+.order__input,
+.order__textarea
+  display flex
+  align-items center
+  width 100%
+  height 60px
+  box-shadow 0 0 39px 4px rgba(217, 217, 217, 0.18)
+  border-radius 2px
+  padding 0 22px
+  margin-bottom 15px
+  &:focus
+    &+.order__label
+      opacity 0
+
+.order__label
+  position absolute
+  left 22px
+  top 23px
+  color #bfbfbf
+  font-weight 300
+  @extend .trs
+  &.hide
+	  opacity 0
+
+.order__btn
+  margin 25px auto 0
+
+.order__textarea
+  width 293px
+  height 165px
+  align-items flex-start
+  padding 22px
+
+.order__consent
+  width 100%
+  max-width 379px
+  margin 21px auto 0
+  line-height 20px
+  color #465f5a
+  font-weight 300
+
+.order__link
+  color #453434
+  text-decoration underline
+  font-weight 400
+  line-height 20px
+  &:hover
+    text-decoration none

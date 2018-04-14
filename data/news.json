@@ -1,0 +1,72 @@
+{
+  "title": "Новости",
+  "more": "Прочитать",
+  "last": {
+    "tag": "Последняя новость",
+    "src": "app/img/content/news/1.jpg",
+    "alt": "Last news preview",
+    "date": "15.02.2018",
+    "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны..."
+  },
+  "list": [
+    {
+      "tag": "Новость",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 1"
+    },
+    {
+      "tag": "Акции",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 2"
+    },
+    {
+      "tag": "Акции",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 3"
+    },
+    {
+      "tag": "Новость",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 4"
+    },
+    {
+      "tag": "Акции",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 5"
+    },
+    {
+      "tag": "Акции",
+      "date": "15.02.2018",
+      "text": "Творческий вечер члена союза дизайнеров России, Махневой Елены Алексеевны...",
+      "imgSrc": "app/img/content/main/news-preview/1.jpg",
+      "imgAlt": "News Preview 6"
+    }
+  ],
+  "pagination": [
+    {
+      "text": "1"
+    },
+    {
+      "text": "2"
+    },
+    {
+      "text": "3"
+    },
+    {
+      "text": "..."
+    },
+    {
+      "text": "20"
+    }
+  ]
+}

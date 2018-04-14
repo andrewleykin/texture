@@ -1,0 +1,12 @@
+a.news-preview__item.news-preview__item--last(href="#")
+  .news-preview__img
+    img(src=news.last.src, alt=news.last.alt)
+  span.news-preview__tag.news-preview__tag--last= news.last.tag
+  .news-preview__date.news-preview__date--big
+    +icon(main.general.icons.clock)
+    span= news.last.date
+  .news-preview__descr.news-preview__descr--last
+    p.news-preview__text.news-preview__text--big= news.last.text
+    .news-preview__more.news-preview__more--big
+      span= main.newsPreview.more
+      +icon(main.general.icons.arrow)

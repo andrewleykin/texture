@@ -1,0 +1,20 @@
+section.news
+  .container
+    .news__wrap
+      h2.title.title--dark.news__title= news.title
+      .news__block
+        .news__last
+          include ../../modules/news-preview/last
+        .news__roll
+          each el in main.newsPreview.roll
+            include ../../modules/news-preview/roll-el
+      .news__list
+        each item in news.list
+          include ../../modules/news-preview/list-el
+      .news__pagination
+        a.news__icon.news__icon--prev(href="#")
+          +icon(main.general.icons.arrow)
+        each val in news.pagination
+          a.news__pagin(href="#")= val["text"]
+        a.news__icon.news__icon--next(href="#")
+          +icon(main.general.icons.arrow)

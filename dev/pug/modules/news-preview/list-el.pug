@@ -1,0 +1,12 @@
+a.news-preview__item(href="#")
+  .news-preview__img
+    img(src=item["imgSrc"], alt=item["imgAlt"])
+  span.news-preview__tag= item["tag"]
+  .news-preview__date.news-preview__date--big
+    +icon(main.general.icons.clock)
+    span= item["date"]
+  .news-preview__descr
+    p.news-preview__text.news-preview__text--big= item["text"]
+    .news-preview__more.news-preview__more--big
+      span= main.newsPreview.more
+      +icon(main.general.icons.arrow)

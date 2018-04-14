@@ -1,0 +1,14 @@
+section.section.projects
+  .container
+    .projects__wrap
+      h2.title.title--dark.title--section.projects__title= projects.title
+      .projects__list
+        each val in projects.list
+          .projects__item(class="projects__item--"+val["mod"])
+            a.projects__img.search__block(href="#")
+              img(src=val["imgSrc"] alt=val["imgAlt"])
+              .projects__search
+                include ../../modules/search
+            h3.projects__name= val["name"]
+            span.projects__author= val["author"]
+            p.projects__text= val["text"]

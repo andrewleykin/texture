@@ -1,0 +1,19 @@
+.search
+  width 82px
+  height 74px
+  background-color text-color
+  @extend .trs
+  transform-origin bottom right
+  .icon
+    size(19px, 19px)
+    absolute-center()
+    fill #796565
+
+.search__block
+  &:hover
+    .search
+      width 102px
+      height 92px
+      background-color rgba(text-color, 0.9)
+      .icon
+        size(22px, 22px)

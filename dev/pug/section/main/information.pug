@@ -17,9 +17,9 @@ section.information
         .information__list
            each item in main.information.project.list
             .information__item
-              a.information__img(href="#")
+              a.information__img.search__block(href="#")
                 img(src=item["imgSrc"] alt=item["imgAlt"])
                 .information__search
-                  +icon(main.general.icons.search)
+                  include ../../modules/search
               span.information__name= item["name"]
               span.information__author= item["author"]

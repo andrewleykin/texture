@@ -1,0 +1,90 @@
+{
+  "title": "Продукция",
+  "collection": "коллекция",
+  "list": [
+    {
+      "logo": "app/img/content/brands/logo/1.png",
+      "imgSrc": "app/img/content/brands/photo/1.jpg",
+      "imgAlt": "Brands 1",
+      "name": "Itallisima home ",
+      "author": "by Eva Minge"
+    },
+    {
+      "logo": "app/img/content/brands/logo/2.png",
+      "imgSrc": "app/img/content/brands/photo/2.jpg",
+      "imgAlt": "Brands 2",
+      "name": "Piere Cardin",
+      "author": "interieur"
+    },
+    {
+      "logo": "app/img/content/brands/logo/3.png",
+      "imgSrc": "app/img/content/brands/photo/3.jpg",
+      "imgAlt": "Brands 3",
+      "name": "Englisch décor",
+      "author": "textilverlag"
+    },
+    {
+      "logo": "app/img/content/brands/logo/4.png",
+      "imgSrc": "app/img/content/brands/photo/4.jpg",
+      "imgAlt": "Brands 4",
+      "name": "Mille",
+      "author": "das neue Design"
+    },
+    {
+      "logo": "app/img/content/brands/logo/5.png",
+      "imgSrc": "app/img/content/brands/photo/5.jpg",
+      "imgAlt": "Brands 5",
+      "name": "Galleria Arben",
+      "author": "ткани для интерьера"
+    },
+    {
+      "logo": "app/img/content/brands/logo/6.png",
+      "imgSrc": "app/img/content/brands/photo/6.jpg",
+      "imgAlt": "Brands 6",
+      "name": "Svetlana Moscow",
+      "author": "декоративная фурнитура"
+    },
+    {
+      "logo": "app/img/content/brands/logo/7.png",
+      "imgSrc": "app/img/content/brands/photo/7.jpg",
+      "imgAlt": "Brands 7",
+      "name": "Bandex",
+      "author": "шторная лента"
+    },
+    {
+      "logo": "app/img/content/brands/logo/8.png",
+      "imgSrc": "app/img/content/brands/photo/8.jpg",
+      "imgAlt": "Brands 8",
+      "name": "5 Авеню",
+      "author": "ткани для интерьера"
+    },
+    {
+      "logo": "app/img/content/brands/logo/9.png",
+      "imgSrc": "app/img/content/brands/photo/9.jpg",
+      "imgAlt": "Brands 9",
+      "name": "Espocada",
+      "author": "ткани для интерьера"
+    },
+    {
+      "logo": "app/img/content/brands/logo/10.png",
+      "imgSrc": "app/img/content/brands/photo/10.jpg",
+      "imgAlt": "Brands 10",
+      "name": "Дом Caro",
+      "author": "ткани для интерьера"
+    },
+    {
+      "logo": "app/img/content/brands/logo/11.png",
+      "imgSrc": "app/img/content/brands/photo/11.jpg",
+      "imgAlt": "Brands 11",
+      "name": "Casablanca",
+      "author": "ткани для интерьера"
+    },
+    {
+      "logo": "app/img/content/brands/logo/12.png",
+      "imgSrc": "app/img/content/brands/photo/12.jpg",
+      "imgAlt": "Brands 12",
+      "name": "Голд Текстиль",
+      "author": "ткани для интерьера"
+    }
+  ]
+}

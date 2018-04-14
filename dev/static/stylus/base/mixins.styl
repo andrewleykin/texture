@@ -43,3 +43,25 @@ size(a, b = false)
 
 .trs
 	transition all .3s
+
+@keyframes anim {
+  0% {
+    transform scaleY(1)
+    top 0px
+    transform-origin bottom
+  }
+  30% {
+    transform scaleY(0)
+    top 40px
+    transform-origin bottom
+  }
+  70% {
+    transform scaleY(0)
+    top 0px
+    transform-origin top
+  }
+  100% {
+    transform scaleY(1)
+    transform-origin top
+  }
+}

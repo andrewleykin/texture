@@ -1,0 +1,25 @@
+section.about
+  .container
+    .about__wrap
+      .about__top
+        .about__texts.texts
+          each val in about.texts
+            span= val["text"]
+        .about__slider
+          .about__controls
+            include ../../modules/controls
+          .about__list
+            each item in about.list
+              .about__item
+                .about__img
+                  img(src=item["imgSrc"] alt=item["imgAlt"])
+      h2.title.title--dark.title--section= about.title
+      .about__info
+        each val in about.info
+          p.about__text= val["text"]
+        .about__mark
+          img(src=about.mark.src, alt=about.mark.alt)
+      .about__social
+        each val in main.general.social
+          .about__el
+            +icon(val["icon"])
