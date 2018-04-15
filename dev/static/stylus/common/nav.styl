@@ -9,6 +9,11 @@
     .menu__link
       &:after
         width 100%
+  &:hover
+    .menu__sublist
+      transform translateY(0)
+      opacity 1
+      visibility visible
 
 .menu__link
   color accent-color
@@ -20,6 +25,8 @@
   display block
   padding 18px 0 24px
   position relative
+  background #fff
+  z-index 2
   
   &:hover
     &:after
@@ -38,3 +45,28 @@
   &.active
     &:after
       width 100%
+
+
+.menu__sublist
+  position absolute
+  display flex
+  transform translateY(-100%)
+  opacity 0
+  @extend .trs
+  z-index 1
+  visibility hidden
+
+.menu__subitem
+  &+&
+    margin-left 20px
+  .menu__link
+    padding 10px 0 16px
+    background transparent
+    text-transform lowercase
+    font-weight 700
+    &:hover
+      &:after
+        width 70%
+    &.active
+      &:after
+        width 70%

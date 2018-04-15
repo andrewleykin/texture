@@ -1,4 +1,4 @@
-section.section.contacts
+section.contacts
   .container
     .contacts__wrap
       .contacts__map
@@ -10,13 +10,17 @@ section.section.contacts
           span.contacts__text= contacts.address
         .contacts__block
           +icon(main.general.icons.phone)
-          a.contacts__link(href=contacts.phone.link)= contacts.phone.text
+          a.contacts__link(href=contacts.phone.link)
+            span.contacts__text= contacts.phone.text.start
+            span= contacts.phone.text.end
         .contacts__block
           +icon(main.general.icons.mobile)
-          a.contacts__link(href=contacts.mobile.link)= contacts.mobile.text
+          a.contacts__link(href=contacts.mobile.link)
+            span.contacts__text= contacts.mobile.text.start
+            span= contacts.mobile.text.end
         .contacts__block
           +icon(main.general.icons.emailFill)
-          a.contacts__link(href=main.general.email.link.href)= main.general.email.link.text
+          a.contacts__link.contacts__text(href=main.general.email.link.href)= main.general.email.link.text
         .contacts__block
           +icon(main.general.icons.clock)
           .contacts__mode
@@ -31,3 +35,5 @@ section.section.contacts
               p.contacts__text
                 span.contacts__text--bold= contacts.mode.sunday.text
                 span= contacts.mode.sunday.num
+        .contacts__social
+          include ../../modules/social

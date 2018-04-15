@@ -127,6 +127,13 @@
 		}
 	}
 })();
+
+// функция для страниц Контакты
+(function(){
+	if($('.contacts')) {
+		$('.wrapper').addClass('wrapper--contacts')
+	}
+})();
 $(document).ready(function () {
     svg4everybody({});
 });

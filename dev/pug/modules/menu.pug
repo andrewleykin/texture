@@ -1,5 +1,13 @@
 nav.menu
   ul.menu__list
     each val in nav.topNav
-      li.menu__item
-        a.menu__link(href=val["link"])= val["text"]
+      if val["innerNav"]
+        li.menu__item
+          a.menu__link(href=val["link"])= val["text"]
+          ul.menu__sublist
+            each inner in val["innerNav"]
+              li.menu__subitem
+                a.menu__link(href=inner["link"])= inner["text"]
+      else
+        li.menu__item
+          a.menu__link(href=val["link"])= val["text"]

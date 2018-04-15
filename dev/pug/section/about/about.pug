@@ -20,6 +20,4 @@ section.about
         .about__mark
           img(src=about.mark.src, alt=about.mark.alt)
       .about__social
-        each val in main.general.social
-          .about__el
-            +icon(val["icon"])
+        include ../../modules/social

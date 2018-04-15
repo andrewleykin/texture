@@ -24,7 +24,12 @@
               <div class="header__menu">
                 <nav class="menu">
                   <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="about.html">О компании</a></li>
+                    <li class="menu__item"><a class="menu__link" href="about.html">О компании</a>
+                      <ul class="menu__sublist">
+                        <li class="menu__subitem"><a class="menu__link" href="about.html">О компании</a></li>
+                        <li class="menu__subitem"><a class="menu__link" href="team.html">Наша команда</a></li>
+                      </ul>
+                    </li>
                     <li class="menu__item"><a class="menu__link" href="brands.html">Продукция</a></li>
                     <li class="menu__item"><a class="menu__link" href="news.html">Новости</a></li>
                     <li class="menu__item"><a class="menu__link" href="projects.html">Наши проекты</a></li>
@@ -41,7 +46,7 @@
         <!-- Конец Шапки-->
         <!-- Контент-->
         <!-- Контакты-->
-        <section class="section contacts">
+        <section class="contacts">
           <div class="container">
             <div class="contacts__wrap">
               <div class="contacts__map">
@@ -57,17 +62,17 @@
                 <div class="contacts__block">
                   <svg class="icon icon-phone ">
                     <use xlink:href="app/img/svg/symbol/sprite.svg#phone"></use>
-                  </svg><a class="contacts__link" href="tel:3412513545">тел. (3412) 51-35-45</a>
+                  </svg><a class="contacts__link" href="tel:3412513545"><span class="contacts__text">тел. </span><span>(3412) 51-35-45</span></a>
                 </div>
                 <div class="contacts__block">
                   <svg class="icon icon-mobile ">
                     <use xlink:href="app/img/svg/symbol/sprite.svg#mobile"></use>
-                  </svg><a class="contacts__link" href="tel:+79634844760">моб. +7 (963) 484 47 60</a>
+                  </svg><a class="contacts__link" href="tel:+79634844760"><span class="contacts__text">моб. </span><span>+7 (963) 484 47 60</span></a>
                 </div>
                 <div class="contacts__block">
                   <svg class="icon icon-email--fill ">
                     <use xlink:href="app/img/svg/symbol/sprite.svg#email--fill"></use>
-                  </svg><a class="contacts__link" href="mailto:shekotoff@mail.ru">shekotoff@mail.ru</a>
+                  </svg><a class="contacts__link contacts__text" href="mailto:shekotoff@mail.ru">shekotoff@mail.ru</a>
                 </div>
                 <div class="contacts__block">
                   <svg class="icon icon-clock ">
@@ -77,8 +82,24 @@
                     <p class="contacts__text"><span class="contacts__text--bold">пн-пт </span><span>с 10:00-19:00</span></p>
                     <div class="contacts__row">
                       <p class="contacts__text"><span class="contacts__text--bold">сб </span><span>с 10:00-18:00</span></p>
-                      <p class="contacts__text"><span class="contacts__text--bold">вс: </span><span>выходной</span></p>
+                      <p class="contacts__text"><span class="contacts__text--bold">вс </span><span>выходной</span></p>
                     </div>
+                  </div>
+                </div>
+                <div class="contacts__social">
+                  <div class="social"><a class="social__item" href="#">
+                      <svg class="icon icon-vk ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#vk"></use>
+                      </svg></a><a class="social__item" href="#">
+                      <svg class="icon icon-od ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#od"></use>
+                      </svg></a><a class="social__item" href="#">
+                      <svg class="icon icon-fb ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#fb"></use>
+                      </svg></a><a class="social__item" href="#">
+                      <svg class="icon icon-inst ">
+                        <use xlink:href="app/img/svg/symbol/sprite.svg#inst"></use>
+                      </svg></a>
                   </div>
                 </div>
               </div>

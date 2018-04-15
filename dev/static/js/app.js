@@ -127,3 +127,10 @@
 		}
 	}
 })();
+
+// функция для страниц Контакты
+(function(){
+	if($('.contacts')) {
+		$('.wrapper').addClass('wrapper--contacts')
+	}
+})();

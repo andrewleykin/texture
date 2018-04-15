@@ -2,7 +2,17 @@
   "topNav": [
     {
       "text": "О компании",
-      "link": "about.html"
+      "link": "about.html",
+      "innerNav": [
+        {
+          "text": "О компании",
+          "link": "about.html"
+        },
+        {
+          "text": "Наша команда",
+          "link": "team.html"
+        }
+      ]
     },
     {
       "text": "Продукция",

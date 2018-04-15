@@ -1,0 +1,72 @@
+.contacts
+  padding-top 207px
+  padding-bottom 137px
+
+.contacts__wrap
+  display flex
+  justify-content space-between
+
+.contacts__info
+  width 100%
+  max-width 335px
+  padding-left 24px
+  position relative
+  &:before
+    content ''
+    width 3px
+    height 33px
+    background-color #1b0c0f
+    position absolute
+    top 0
+    left 0
+
+.contacts__title
+  margin-bottom 55px
+
+.contacts__block
+  display flex
+  &+&
+    margin-top 30px
+  .icon
+    size(20px, 20px)
+    margin-right 10px
+    fill rgba(186, 167, 167, 0.99)
+
+.contacts__link
+  font-size 19px
+  color dark-color
+  &:hover
+    color lighten(dark-color, 20%)
+
+.contacts__text
+  color dark-color
+  font-weight 300
+  &--bold
+    font-weight 700
+
+
+.contacts__subtitle
+  color #8b8181
+  font-weight 300
+  display block
+  margin-bottom 10px
+
+.contacts__row
+  display flex
+  align-items: center
+  margin-top 10px
+  .contacts__text:first-child
+    display block
+    margin-right 5px
+    padding-right 10px
+    position relative
+    &:after
+      content '/'
+      display block
+      position absolute
+      right 0
+      top 0
+
+.contacts__social
+  margin-top 44px
+  margin-left -24px
