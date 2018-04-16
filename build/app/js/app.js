@@ -6,7 +6,7 @@
 	function setHeaderFixed(){
 		var scroll = $(window).scrollTop();
 
-		if (scroll >= 35) {
+		if (scroll >= 15) {
 				$('.header').addClass('header--fixed');
 				// $('.page').addClass('page--js-top');
 		}
@@ -128,9 +128,28 @@
 	}
 })();
 
+(function(){
+	var controlBlock = $('.js-control');
+			prev = controlBlock.find('.control--prev'),
+			next = controlBlock.find('.control--next');
+
+			prev.mouseenter(function(){
+				controlBlock.addClass('prev')
+			});
+			prev.mouseleave(function(){
+				controlBlock.removeClass('prev')
+			});
+			next.mouseenter(function(){
+				controlBlock.addClass('next')
+			});
+			next.mouseleave(function(){
+				controlBlock.removeClass('next')
+			});
+})();
+
 // функция для страниц Контакты
 (function(){
-	if($('.contacts')) {
+	if($('.contacts').length) {
 		$('.wrapper').addClass('wrapper--contacts')
 	}
 })();

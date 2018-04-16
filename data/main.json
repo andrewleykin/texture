@@ -14,6 +14,7 @@
     },
     "icons": {
       "arrow": "arrow",
+      "arrowLeft": "arrow-left",
       "arrowBig": "arrow--big",
       "search": "search",
       "clock": "clock",
