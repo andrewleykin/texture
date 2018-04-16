@@ -7,8 +7,10 @@
   @extend .trs
   z-index 10
   &--fixed
-    padding 20px 0
-    box-shadow: 0 -1px 15px rgba(0, 0, 0, 0.3);
+    padding 20px 0 30px
+    box-shadow 0 -1px 15px rgba(0, 0, 0, 0.3)
+    .header__menu
+      align-self flex-start
 
 .header__wrap
   display flex
@@ -19,3 +21,4 @@
 
 .header__menu
   margin-right auto
+  @extend .trs
