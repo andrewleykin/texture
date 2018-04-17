@@ -130,8 +130,8 @@
 
 (function(){
 	var controlBlock = $('.js-control');
-			prev = controlBlock.find('.control--prev'),
-			next = controlBlock.find('.control--next');
+			prev = controlBlock.find('.js-control--prev'),
+			next = controlBlock.find('.js-control--next');
 
 			prev.mouseenter(function(){
 				controlBlock.addClass('prev')

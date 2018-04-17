@@ -65,3 +65,25 @@ size(a, b = false)
     transform-origin top
   }
 }
+
+@keyframes anim--bottom {
+  0% {
+    transform scaleY(1)
+    bottom 0px
+    transform-origin top
+  }
+  30% {
+    transform scaleY(0)
+    bottom 40px
+    transform-origin top
+  }
+  70% {
+    transform scaleY(0)
+    bottom 0px
+    transform-origin bottom
+  }
+  100% {
+    transform scaleY(1)
+    transform-origin bottom
+  }
+}

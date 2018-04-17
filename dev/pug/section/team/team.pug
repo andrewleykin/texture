@@ -4,8 +4,8 @@ section.section.team
       h2.title.title--dark.title--section.team__title= team.title
       .team__list
         each val in team.list
-          .team__item
-            .team__img
+          .team__item.wow.fadeInUp
+            .team__img.img-hover
               img(src=val["imgSrc"], alt=val["imgAlt"])
             h3.team__name= val["name"]
             span.team__post= val["post"]

@@ -1,4 +1,4 @@
-section.news
+section.news.wow.fadeIn
   .container
     .news__wrap
       h2.title.title--dark.news__title= news.title
@@ -8,10 +8,10 @@ section.news
         .news__roll
           each el in main.newsPreview.roll
             include ../../modules/news-preview/roll-el
-      .news__list
+      .news__list.wow.fadeInUp
         each item in news.list
           include ../../modules/news-preview/list-el
-      .news__pagination
+      .news__pagination.wow.fadeInUp
         a.news__icon.news__icon--prev(href="#")
           +icon(main.general.icons.arrow)
         each val in news.pagination

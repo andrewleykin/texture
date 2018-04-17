@@ -1,4 +1,4 @@
-section.brands-preview
+section.brands-preview.wow.fadeIn
   .container
     .brands-preview__wrap
       .brands-preview__row
@@ -7,10 +7,10 @@ section.brands-preview
           .brands-preview__name
             span.brands-preview__name--ru= main.brandsPreview.name.ru
             span.brands-preview__name--eng= main.brandsPreview.name.eng
-        .brands-preview__img
+        .brands-preview__img.img-hover
           img(src=main.brandsPreview.img.one.src alt=main.brandsPreview.img.one.alt)
       .brands-preview__row
-        .brands-preview__photo
+        .brands-preview__photo.img-hover
           img(src=main.brandsPreview.img.two.src alt=main.brandsPreview.img.two.alt)
           a.brands-preview__more.more(href=main.brandsPreview.link.href)= main.brandsPreview.link.text
         p.brands-preview__text= main.brandsPreview.text

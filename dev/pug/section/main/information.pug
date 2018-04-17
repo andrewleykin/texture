@@ -1,4 +1,4 @@
-section.information
+section.information.wow.fadeIn
   .container
     .information__wrap
       .information__team
@@ -9,15 +9,15 @@ section.information
           +icon(main.general.icons.arrow)
       .information__project
         h3.information__title.information__title--light= main.information.project.title
-        .information__controls
-          .information__control.information__control--prev
-            +icon(main.general.icons.arrow)
-          .information__control.information__control--next
+        .information__controls.controls.js-control
+          .information__control.information__control--prev.control.control--prev.js-control--prev
+            +icon(main.general.icons.arrowLeft)
+          .information__control.information__control--next.control.control--next.js-control--next
             +icon(main.general.icons.arrow)
         .information__list
            each item in main.information.project.list
             .information__item
-              a.information__img.search__block(href="#")
+              a.information__img.search__block.img-hover(href="#")
                 img(src=item["imgSrc"] alt=item["imgAlt"])
                 .information__search
                   include ../../modules/search

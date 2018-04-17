@@ -4,8 +4,8 @@ section.section.projects
       h2.title.title--dark.title--section.projects__title= projects.title
       .projects__list
         each val in projects.list
-          .projects__item(class="projects__item--"+val["mod"])
-            a.projects__img.search__block(href="#")
+          .projects__item.wow.fadeInUp(class="projects__item--"+val["mod"])
+            a.projects__img.search__block.img-hover(href="#")
               img(src=val["imgSrc"] alt=val["imgAlt"])
               .projects__search
                 include ../../modules/search

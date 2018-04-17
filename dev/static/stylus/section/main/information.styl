@@ -81,17 +81,20 @@
   size(99px, 90px)
   background-color #3c2f2f
   @extend .trs
+  &:before
+    background #cfc1c1
+    left 48px
   .icon
     size(9px, 15px)
     absolute-center()
+    left 48px
     fill #6e5a5a
     @extend .trs
   &:hover
     background-color text-color
     .icon
       fill #cfc1c1
-  &--prev
-    transform rotate(180deg)
+
 
 .information__list
   width 983px

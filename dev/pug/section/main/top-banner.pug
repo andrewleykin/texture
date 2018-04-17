@@ -1,4 +1,4 @@
-section.top-banner
+section.top-banner.wow.fadeIn
   .top-banner__social
         each social in main.general.social
           a.top-banner__link(href="#")
@@ -14,7 +14,7 @@ section.top-banner
         .top-banner__list
           each item in main.topBanner.list
             .top-banner__item
-              .top-banner__img
+              .top-banner__img.img-hover
                 img(src=item["imgSrc"] alt=item["imgAlt"])
               .top-banner__info.more.more--big
                 span.top-banner__brand= item["brand"]
