@@ -23,6 +23,12 @@
   &:nth-child(11)
     .brands__logo
       padding-top 10px
+  @media (max-width: screen-md)
+    max-width 200px
+  @media (max-width: screen-sm)
+    margin 0 auto 40px
+    &:nth-child(11)
+      margin-bottom 40px
     
 
 .brands__logo
@@ -32,6 +38,9 @@
   align-items: center
   justify-content center
   margin-bottom 35px
+  @media (max-width: screen-md)
+    max-width 200px
+    margin-bottom 20px
 
 .brands__photo
   margin-bottom 78px
@@ -55,6 +64,15 @@
     .brands__collection
       left 8px
       bottom 0
+  @media (max-width: screen-md)
+    margin-bottom 30px
+    &:after
+      bottom 0
+      right 0
+      border-width 4px
+    &:hover
+      .brands__collection
+        left 0
 
 .brands__collection
   width 204px
@@ -82,9 +100,22 @@
     padding-left 40px
     .icon
       margin-left 40px
+  @media (max-width: screen-md)
+    width 100%
+    height 40px
+    padding-left 15px
+    left 0
+    bottom 0
+    font-size 14px
+    &:hover
+      width 100%
+      .icon
+        margin-left 26px
 
 .brands__info
   padding-left 44px
+  @media (max-width: screen-md)
+    padding-left 20px
 
 .brands__name
   color #3c2f2f

@@ -6,10 +6,20 @@
   display flex
   align-items: center
   justify-content space-between
+  @media (max-width: screen-lg)
+    flex-wrap wrap
 
 .footer__social
   display flex
   flex-direction row-reverse
+  @media (max-width: screen-lg)
+    order 2
+    margin 20px auto 0
+  @media (max-width: screen-md)
+    margin 0
+  @media (max-width: screen-sm)
+    order 5
+    margin-top 20px
 
 .footer__el
   padding 5px
@@ -32,6 +42,9 @@
     size(33px, 33px)
     margin-right 10px
     fill #a7a7a7
+  @media (max-width: screen-md)
+    order 3
+    margin-top 20px
 
 .footer__email
   display flex
@@ -40,6 +53,9 @@
     size(29px, 29px)
     margin-right 14px
     fill #a7a7a7
+  @media (max-width: screen-md)
+    order 4
+    margin-top 20px
 
 .footer__title
   display block

@@ -2,12 +2,22 @@
   padding-top 190px
   position relative
   margin-bottom 150px
+  @media (max-width: screen-xl)
+    margin-bottom 100px
+  @media (max-width: screen-lg)
+    padding-top 220px
+    margin-bottom 50px
+  @media (max-width: screen-md)
+    padding-top 125px
+    margin-bottom 0
 
 .top-banner__social
   position absolute
   left 60px
   top 50%
   transform translateY(-50%)
+  @media (max-width: screen-lg)
+    display none
 
 .top-banner__link
   display block
@@ -31,12 +41,34 @@
     top 85px
     z-index -1
     box-shadow 0px -2px 52px -21px rgba(0,0,0,0.3)
+  @media (max-width: screen-xxl)
+    &:before
+      width 340px
+      height 144px
+      left 150px
+  @media (max-width: screen-lg)
+    &:before
+      top 0
+      left 0
+  @media (max-width: screen-md)
+    &:before
+      width 100%
+      height 162px
 
 .top-banner__texts
   position absolute
   z-index: 2
   left 0
   top 85px
+  @media (max-width: screen-xxl)
+    left 150px
+  @media (max-width: screen-lg)
+    top 0
+    left 0
+  @media (max-width: screen-md)
+    position static
+    margin-bottom 30px
+
 
 .top-banner__text
   &:nth-child(1)
@@ -45,16 +77,33 @@
     padding 10px 50px 30px 49px
   &:nth-child(3)
     padding 0px 67px 40px 49px
+  
+  @media (max-width: screen-xxl)
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3)
+      padding 10px 20px
+  @media (max-width: screen-sm)
+    &:nth-child(1),
+    &:nth-child(2),
+    &:nth-child(3)
+      padding 10px 11px
 
 .top-banner__slider
   position relative
   max-width 903px
   margin-left auto
 
+.top-banner__list
+  @media (max-width: screen-sm)
+    padding-bottom 76px
+
 .top-banner__item
   position relative
   padding-right 43px
   padding-bottom 42px
+  @media (max-width: screen-md)
+    padding-right 0
 
 
 .top-banner__controls
@@ -62,6 +111,12 @@
   z-index 2
   bottom 152px
   left -74px
+  @media (max-width: screen-lg)
+    bottom 0
+    left 0
+  @media (max-width: screen-sm)
+    left 50%
+    transform translate(-50%)
 
 .top-banner__info
   position absolute
@@ -74,6 +129,11 @@
   padding-right 15px
   width 392px
   height 133px
+  @media (max-width: screen-md)
+    padding-top 20px
+    padding-left 20px
+    width 300px
+    height 76px
 
 .top-banner__brand
   display block
@@ -83,6 +143,10 @@
   line-height 24px
   text-transform uppercase
   letter-spacing 0.55px
+  @media (max-width: screen-md)
+    margin-bottom 5px
+    font-size 16px
+    line-height 18px
 
 .top-banner__name
   color #c8bbbb
@@ -99,3 +163,7 @@
     right -60px
     top 50%
     transform translateX(-50%)
+  @media (max-width: screen-md)
+    font-size 13px
+    &:after
+      display none

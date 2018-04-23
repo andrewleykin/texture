@@ -24,10 +24,10 @@
               <div class="header__menu">
                 <nav class="menu">
                   <ul class="menu__list">
-                    <li class="menu__item"><a class="menu__link" href="about.html">О компании</a>
+                    <li class="menu__item menu__item--sub"><a class="menu__link" href="about.html">О компании</a>
                       <ul class="menu__sublist">
-                        <li class="menu__subitem"><a class="menu__link" href="about.html">О компании</a></li>
-                        <li class="menu__subitem"><a class="menu__link" href="team.html">Наша команда</a></li>
+                        <li class="menu__subitem"><a class="menu__sublink" href="about.html">О компании</a></li>
+                        <li class="menu__subitem"><a class="menu__sublink" href="team.html">Наша команда</a></li>
                       </ul>
                     </li>
                     <li class="menu__item"><a class="menu__link" href="brands.html">Продукция</a></li>
@@ -36,10 +36,12 @@
                     <li class="menu__item"><a class="menu__link" href="contacts.html">Контакты</a></li>
                   </ul>
                 </nav>
+                <div class="btn btn--border" data-remodal-target="order">Стать партнером</div>
               </div>
               <div class="header__action">
                 <div class="btn btn--border" data-remodal-target="order">Стать партнером</div>
               </div>
+              <div class="header__burger"></div>
             </div>
           </div>
         </header>
@@ -149,6 +151,7 @@
                 <div class="order__block">
                   <textarea class="order__textarea" name="message" id="message"></textarea>
                   <label class="order__label" for="message">Коментарий...</label>
+                  <button class="btn btn--dark order__btn">Отправить запрос</button>
                 </div>
               </div>
             </form>

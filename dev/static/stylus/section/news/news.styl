@@ -2,14 +2,31 @@
   background-color #f9f8f8
   padding-top 275px
   padding-bottom 120px
+  @media (max-width: screen-xl)
+    padding-top 225px
+    padding-bottom 100px
+  @media (max-width: screen-md)
+    padding-top 150px
+    padding-bottom 50px
 
 .news__title
   margin-bottom 100px
+  @media (max-width: screen-xl)
+    margin-bottom 80px
+  @media (max-width: screen-md)
+    margin-bottom 40px
 
 .news__block
   display flex
   justify-content space-between
   margin-bottom 100px
+  @media (max-width: screen-xl)
+    margin-bottom 80px
+  @media (max-width: screen-md)
+    margin-bottom 50px
+    display block
+  @media (max-width: screen-sm)
+    margin-bottom 25px
 
 .news__last
   width 100%
@@ -18,6 +35,11 @@
 
 .news__roll
   max-width 369px
+  @media (max-width screen-md)
+    margin-top 40px
+    max-width 100%
+  @media (max-width: screen-sm)
+    margin-top 125px
 
 .news__list
   margin-bottom 130px
@@ -26,6 +48,19 @@
   .news-preview__item
     &:nth-child(-n+3)
       margin-bottom 88px
+  @media (max-width: screen-xl)
+    margin-bottom 80px
+    .news-preview__item
+      margin 0 auto 50px
+      &:nth-child(4)
+        .news-preview__descr
+          bottom 8px
+  @media (max-width: screen-md)
+    margin-bottom 25px
+    .news-preview__item
+      &:nth-child(4)
+        .news-preview__descr
+          bottom 0px
 
 .news__pagination
   display flex

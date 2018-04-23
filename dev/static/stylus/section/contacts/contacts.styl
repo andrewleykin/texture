@@ -1,10 +1,29 @@
 .contacts
   padding-top 207px
   padding-bottom 137px
+  @media (max-width: screen-lg)
+    padding-bottom 100px
+  @media (max-width: screen-md)
+    padding-top 125px
+    padding-bottom 70px
+  @media (max-width: screen-sm)
+    padding-bottom 40px
+
 
 .contacts__wrap
   display flex
   justify-content space-between
+  @media (max-width: screen-md)
+    flex-direction column-reverse
+
+.contacts__map
+  max-width 749px
+  width 100%
+  @media (max-width: screen-lg)
+    max-width 420px
+  @media (max-width: screen-md)
+    max-width 100%
+    
 
 .contacts__info
   width 100%
@@ -19,9 +38,21 @@
     position absolute
     top 0
     left 0
+  @media (max-width: screen-xl)
+    max-width 300px
+    padding-left 10px
+  @media (max-width: screen-md)
+    max-width 100%
+    padding-left 20px
+    margin-bottom 40px
+  @media (max-width: screen-sm)
+    &:before
+      display none
 
 .contacts__title
   margin-bottom 55px
+  @media (max-width: screen-sm)
+    margin-bottom 30px
 
 .contacts__block
   display flex
@@ -70,3 +101,9 @@
 .contacts__social
   margin-top 44px
   margin-left -24px
+  @media (max-width: screen-xl)
+    margin-left -5px
+  @media (max-width: screen-sm)
+    display flex
+    justify-content center
+    margin-top 30px

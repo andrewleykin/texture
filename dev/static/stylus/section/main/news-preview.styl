@@ -1,12 +1,20 @@
 .news-preview
   background-color #f9f8f8
   padding 90px 0
+  @media (max-width: screen-md)
+    padding 40px 0
 
 .news-preview__title
   margin-bottom 96px
+  @media (max-width: screen-lg)
+    margin-bottom 40px
+  @media (max-width: screen-md)
+    text-align center
 
 .news-preview__wrap
   display flex
+  @media (max-width: screen-lg)
+    display block
 
 .news-preview__list
   max-width 718px
@@ -14,6 +22,11 @@
   margin-right 82px
   display flex
   align-self flex-start
+  @media (max-width: screen-lg)
+    margin-right 0
+    margin-bottom 60px
+  @media (max-width: screen-md)
+    display block
 
 .news-preview__item
   position relative
@@ -28,6 +41,13 @@
         width 0
       .icon
         margin-left 17px
+  @media (max-width: screen-md)
+    max-width 320px
+    margin 0 auto 20px
+    &+&
+      margin-left auto
+    &--last
+      max-width 100%
 
 .news-preview__tag
   display block
@@ -43,6 +63,10 @@
   align-items center
   &--last
     size(195px, 49px)
+  @media (max-width: screen-sm)
+    font-size 14px
+    &--last
+      width 160px
 
 .news-preview__date
   display flex
@@ -77,6 +101,17 @@
     right unset
     left 30px
     max-width 440px
+  @media (max-width: screen-lg)
+    right 0
+  @media (max-width: screen-md)
+    bottom 0
+  @media (max-width: screen-sm)
+    &--last
+      left 0
+      max-width 100%
+      width 100%
+      padding 20px
+      bottom -100px
   
 
 .news-preview__text

@@ -4,6 +4,8 @@
 .menu__list
   display flex
   border-bottom 1px solid #ececec
+  @media (max-width: screen-md)
+    display block
 
 .menu__item
   &+&
@@ -17,6 +19,33 @@
       transform translateY(0)
       opacity 1
       visibility visible
+  &--sub
+    &:after
+      content ''
+      z-index 2
+      position absolute
+      right 20px
+      top 20px
+      width 15px
+      height 15px
+      border 2px solid transparent 
+      border-right-color text-color
+      border-bottom-color text-color
+      transform rotate(45deg)
+      border-radius 4px
+      @extend .trs
+      display none
+    &.active
+      &:after
+        transform rotate(-135deg)
+  
+  @media (max-width: screen-md)
+    &:after
+      display block
+    &+&
+      margin-left 0
+    &--sub
+      position relative
 
 .menu__link
   color accent-color
@@ -52,6 +81,13 @@
   .header--fixed &
     padding 10px 0
 
+  @media (max-width: screen-md)
+    padding-left 20px
+    &:after
+      bottom -1px
+      width 100%
+    .header--fixed &
+      padding 10px
 
 .menu__sublist
   position absolute
@@ -63,20 +99,39 @@
   @extend .trs
   z-index 1
   visibility hidden
+  @media (max-width: screen-md)
+    visibility visible
+    opacity 1
+    z-index 4
+    background white
+    transform translateY(0)
+    padding-left 20px
+    position static
+    transition none
+    display none
 
 .menu__subitem
   &+&
     margin-left 20px
-  .menu__link
-    padding 10px 0 16px
-    background transparent
-    text-transform lowercase
-    font-weight 700
-    &:hover
-      &:after
-        width 70%
-    &.active
-      &:after
-        width 70%
-    .header--fixed &
-      padding 4px 0 5px
+  @media (max-width: screen-md)
+    display inline-block
+
+.menu__sublink
+  @extend .menu__link
+  padding 10px 0 16px
+  background transparent
+  text-transform lowercase
+  font-weight 700
+  &:hover
+    &:after
+      width 70%
+  &.active
+    &:after
+      width 70%
+  .header--fixed &
+    padding 4px 0 5px
+  
+  @media (max-width: screen-md)
+    padding-left 0
+    &:after
+      width 0

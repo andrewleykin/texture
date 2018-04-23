@@ -2,6 +2,10 @@
   max-width 706px
   padding 45px 52px 60px 55px
   background-color #f6f6f6
+  @media (max-width: screen-md)
+    padding 40px 50px
+  @media (max-width: screen-sm)
+    padding 30px 15px
 
 .order__close
   right 25px
@@ -16,6 +20,9 @@
     size(21px, 21px)
     fill #cdbbbe
     @extend .trs
+  @media (max-width: screen-sm)
+    right 5px
+    top 5px
 
 .order__title
   margin-bottom 49px
@@ -38,6 +45,20 @@
   position relative
   width 100%
   max-width 293px
+  @media (max-width: screen-md)
+    max-width 100%
+
+.order__block
+  .btn
+    display none
+  @media (max-width: screen-md)
+    .btn
+      display block
+
+.order__col
+  @media (max-width: screen-md)
+    .btn
+      display none
 
 .order__input,
 .order__textarea
@@ -71,6 +92,8 @@
   height 165px
   align-items flex-start
   padding 22px
+  @media (max-width: screen-md)
+    width 100%
 
 .order__consent
   width 100%
@@ -79,6 +102,8 @@
   line-height 20px
   color #465f5a
   font-weight 300
+  @media (max-width: screen-md)
+    max-width 100%
 
 .order__link
   color #453434

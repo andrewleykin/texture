@@ -1,5 +1,9 @@
 .brands-preview
   margin-bottom 167px
+  @media (max-width: screen-xl)
+    margin-bottom 117px
+  @media (max-width: screen-md)
+    margin-bottom 30px
 
 .brands-preview__row
   display flex
@@ -7,6 +11,14 @@
   &:nth-child(2)
     margin-top -98px
     align-items: center
+    @media (max-width: screen-lg)
+      margin-top 35px
+  @media (max-width: screen-md)
+    display block
+    text-align center
+    &:nth-child(2)
+      display flex
+      flex-direction column-reverse
 
 .brands-preview__info
   padding-left 45px
@@ -22,6 +34,23 @@
     width 3px
     height 188px
     background text-color
+  @media (max-width: screen-lg)
+    padding-top 30px
+    max-width 415px
+  @media (max-width: screen-md)
+    max-width 100%
+    padding-top 0
+    padding-left 0
+    margin-bottom 20px
+    &:before
+      display none
+
+.brands-preview__img
+  @media (max-width: screen-xl)
+    max-width 425px
+  @media (max-width: screen-md)
+    max-width 80%
+    margin 0 auto
 
 .brands-preview__title
   color text-color
@@ -45,6 +74,13 @@
   &:after
     bottom -16px
     right -32px
+  @media (max-width: screen-lg)
+    font-size 24px
+    margin-bottom 20px
+    &:before
+      top -15px
+    &:after
+      display none
 
 .brands-preview__name
   color gray-color
@@ -67,6 +103,8 @@
 .brands-preview__photo
   position relative
   box-shadow 11px -11px 87px rgba(117, 117, 117, 0.06)
+  @media (max-width: screen-lg)
+    max-width 480px
 
 .brands-preview__more
   position absolute
@@ -79,6 +117,12 @@
   display flex
   align-items: center
   padding-left 49px
+  @media (max-width: screen-lg)
+    &.more
+      width 320px
+      height 60px
+      &:before,&:after
+        width 45px
 
 .brands-preview__text
   margin-right 30px
@@ -97,3 +141,12 @@
     width 748px
     height 170px
     background-color #fafafa
+  
+  @media (max-width: screen-xl)
+    padding-left 15px
+  @media (max-width: screen-md)
+    padding-left 0
+    max-width 480px
+    margin 0 auto 20px
+    &:before
+      display none

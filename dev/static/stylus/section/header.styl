@@ -13,10 +13,18 @@
       transform scale(0.7) translateY(15px)
     .header__menu
       align-self flex-start
+    @media (max-width: screen-lg)
+      padding-bottom 40px
+    @media (max-width: screen-md)
+      padding-bottom 15px
+      .header__menu
+        top 79px
 
 .header__wrap
   display flex
   align-items: center
+  @media (max-width: screen-lg)
+    flex-wrap wrap
 
 .header__logo
   margin-right 70px
@@ -25,7 +33,74 @@
   transform-origin top left
   img
     width 100%
+  @media (max-width: screen-xl)
+    margin-right 30px
+  @media (max-width: screen-lg)
+    margin-right auto
+  @media (max-width: screen-md)
+    transform scale(0.9)
+    margin-right 0
+  @media (max-width: screen-sm)
+    margin-right auto
 
 .header__menu
   margin-right auto
   @extend .trs
+  .btn
+    display none
+  @media (max-width: screen-lg)
+    margin 0 auto
+    order 2
+  @media (max-width: screen-md)
+    position absolute
+    left 0
+    right 0
+    top 109px
+    display none
+    transition none
+  @media (max-width: screen-sm)
+    background white
+    padding-bottom 10px
+    .btn
+      max-width 210px
+      margin 10px auto 0
+      display block
+  
+  
+.header__action
+  @media (max-width: screen-md)
+    margin 0 auto
+  @media (max-width: screen-sm)
+    display none
+
+.header__burger
+  display none
+  width 20px
+  height 3px
+  background text-color
+  border-radius 2px
+  position relative
+  cursor pointer
+  @extend .trs
+  &:before,&:after
+    content ''
+    display block
+    width 20px
+    height 3px
+    background text-color
+    border-radius 2px
+    position absolute
+    @extend .trs
+  &:before
+    top -6px
+  &:after
+    bottom -6px
+  &.active
+    transform rotate(45deg)
+    &:after
+      opacity 0
+    &:before
+      transform rotate(90deg)
+      top 0
+  @media (max-width: screen-md)
+    display block

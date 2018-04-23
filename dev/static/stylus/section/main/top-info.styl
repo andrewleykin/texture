@@ -1,9 +1,18 @@
 .top-info
   margin-bottom 187px
+  @media (max-width: screen-xl)
+    margin-bottom 137px
+  @media (max-width: screen-md)
+    margin-bottom 40px
 
 .top-info__wrap
   display flex
   justify-content space-between
+  @media (max-width: screen-lg)
+    align-items center
+  @media (max-width: screen-md)
+    display block
+    text-align center
 
 .top-info__text
   width 100%
@@ -36,6 +45,20 @@
   &:hover
     &:before
       animation anim--bottom 1.4s linear
+  @media (max-width: screen-lg)
+    &:after
+      display none
+  @media (max-width: screen-md)
+    padding-top 40px
+    padding-left 0
+    margin-bottom 20px
+    font-size 18px
+    line-height 22px
+    &:before
+      display none
 
 .top-info__img
   margin-right 63px
+  @media (max-width: screen-md)
+    max-width 60%
+    margin 0 auto

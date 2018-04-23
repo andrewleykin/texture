@@ -1,6 +1,16 @@
 .information
   margin-bottom 165px
   overflow hidden
+  @media (max-width: screen-xl)
+    margin-bottom 115px
+  @media (max-width: screen-lg)
+    margin-bottom 50px
+
+.information__wrap
+  @media (max-width: screen-lg)
+    display flex
+    flex-direction column-reverse
+    padding-top 550px
 
 .information__team
   box-shadow 4px 19px 76px rgba(103, 79, 46, 0.04)
@@ -11,6 +21,17 @@
   padding-top 70px
   padding-left 172px
   padding-bottom 99px
+  @media (max-width: screen-xl)
+    max-width 550px
+    padding-left 125px
+  @media (max-width: screen-lg)
+    max-width 100%
+    padding-left 100px
+    padding-top 30px
+    padding-bottom 50px
+  @media (max-width: screen-md)
+    text-align center
+    padding 30px 15px 50px
 
 .information__title
   font-size 24px
@@ -38,6 +59,12 @@
   font-weight 300
   line-height 23px
   letter-spacing 0.08px
+  @media (max-width: screen-lg)
+    margin-top 20px
+    margin-bottom 60px
+  @media (max-width: screen-md)
+    max-width 100%
+    margin-bottom 20px
 
 .information__more
   display flex
@@ -53,6 +80,8 @@
   &:hover
     .icon
       margin-left 30px
+  @media (max-width: screen-md)
+    margin 0 auto
 
 .information__project
   z-index 2
@@ -71,6 +100,12 @@
     height 487px
     z-index -1
     background url(../img/content/main/information/bg.jpg) center no-repeat
+  
+  @media (max-width: screen-xl)
+    max-width 600px
+  @media (max-width: screen-lg)
+    max-width 100%
+    margin-bottom 30px
 
 .information__controls
   display flex
@@ -94,6 +129,10 @@
     background-color text-color
     .icon
       fill #cfc1c1
+  @media (max-width: screen-sm)
+    size(78px, 70px)
+    &:before
+      left 30px
 
 
 .information__list
@@ -101,6 +140,10 @@
   position absolute
   right 147px
   bottom calc(100% + 73px)
+  @media (max-width: screen-lg)
+    right 20px
+  @media (max-width: screen-sm)
+    right -50px
 
 .information__item
   margin 0 22px 0 23px
@@ -109,6 +152,8 @@
   display block
   position relative
   margin-bottom 29px
+  @media (max-width: screen-sm)
+    max-width 280px
 
 .information__search
   position absolute
