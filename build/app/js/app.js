@@ -185,6 +185,13 @@
 		$('.wrapper').addClass('wrapper--contacts')
 	}
 })();
+(function(){
+  $('.bic__more').click(function(e){
+    e.preventDefault();
+    $(this).hide();
+    $('.bic__wrap--hidden').slideDown();
+  });
+})();
 $(document).ready(function () {
     svg4everybody({});
 });

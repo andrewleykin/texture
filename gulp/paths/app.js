@@ -10,6 +10,7 @@ module.exports = [
   './dev/static/js/pages/main/information-slider.js',
   './dev/static/js/pages/about/about-slider.js',
   './dev/static/js/pages/contacts/wrapper.js',
+  './dev/static/js/pages/brands-inner/more.js',
   './dev/static/js/libs/svg4everybody.js',
   './dev/static/js/libs/wowjs.js',
 ];

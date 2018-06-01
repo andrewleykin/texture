@@ -1,0 +1,11 @@
+section.brands-inner__info.bii
+  .container
+    .bii__header
+      .bii__logo
+        img(src=brandsInner.info.logo.src, alt=brandsInner.info.logo.alt)
+      .title.title--dark.bii__feature= brandsInner.info.feature
+    h2.title.title--dark.bii__title= brandsInner.info.title
+    .bii__info
+      each val in brandsInner.info.texts
+        p.bii__text= val["text"]
+    a.bii__link(href=brandsInner.info.link.href)= brandsInner.info.link.text

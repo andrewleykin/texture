@@ -1,0 +1,10 @@
+section.brands-inner__top.bit
+  .container
+    .bit__wrap
+      .bit__img
+        img(src=brandsInner.top.img.src, alt=brandsInner.top.img.alt)
+      .bit__descr
+        h1.title.title--dark.bit__title= brandsInner.top.title
+        each val in brandsInner.top.texts
+          p.bit__text= val["text"]
+        
