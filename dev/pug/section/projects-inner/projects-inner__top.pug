@@ -1,0 +1,10 @@
+section.section.projects-inner__top.pit
+  .container
+    .pit__wrap
+      h2.title.title--dark.title--section.pit__title= projectsInner.top.title
+      .pit__list
+        each val in projectsInner.top.list
+          .pit__item
+            each img in val["item"]
+              .pit__img(class="pit__img--"+img["mod"]).img-hover
+                img(src=img["imgSrc"], alt=img["imgAlt"])

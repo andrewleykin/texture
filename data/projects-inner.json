@@ -1,0 +1,91 @@
+{
+  "top": {
+    "title": "Художественная ценность Гобелена",
+    "list": [
+      {
+        "item": [
+          {
+            "imgSrc": "app/img/content/projects-inner/top/1.jpg",
+            "imgAlt": "Projects Inner 1",
+            "mod": "small"
+          },
+          {
+            "imgSrc": "app/img/content/projects-inner/top/2.jpg",
+            "imgAlt": "Projects Inner 2",
+            "mod": "small"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "imgSrc": "app/img/content/projects-inner/top/3.jpg",
+            "imgAlt": "Projects Inner 3",
+            "mod": "big"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "imgSrc": "app/img/content/projects-inner/top/4.jpg",
+            "imgAlt": "Projects Inner 4",
+            "mod": "small"
+          },
+          {
+            "imgSrc": "app/img/content/projects-inner/top/5.jpg",
+            "imgAlt": "Projects Inner 5",
+            "mod": "small"
+          }
+        ]
+      },
+      {
+        "item": [
+          {
+            "imgSrc": "app/img/content/projects-inner/top/6.jpg",
+            "imgAlt": "Projects Inner 6",
+            "mod": "big"
+          }
+        ]
+      }
+    ]
+  },
+  "form": {
+    "title": "Понравился проект? Стань партнером.",
+    "subtitle": "Отправь запрос о сотрудничестве:",
+    "form": {
+      "list": [
+        {
+          "type": "text",
+          "name": "surname",
+          "id": "surname",
+          "label": "Фамилия..."
+        },
+        {
+          "type": "text",
+          "name": "name",
+          "id": "name",
+          "label": "Имя..."
+        },
+        {
+          "type": "text",
+          "name": "company",
+          "id": "company",
+          "label": "Название компании..."
+        },
+        {
+          "type": "email",
+          "name": "email",
+          "id": "email",
+          "label": "E-mail..."
+        },
+        {
+          "type": "phone",
+          "name": "phone",
+          "id": "phone",
+          "label": "Телефон..."
+        }
+      ]
+    }
+  }
+}

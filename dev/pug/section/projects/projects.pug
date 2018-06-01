@@ -4,11 +4,10 @@ section.section.projects
       h2.title.title--dark.title--section.projects__title= projects.title
       .projects__list
         each val in projects.list
-          .projects__item.wow.fadeInUp(class="projects__item--"+val["mod"])
-            a.projects__img.search__block.img-hover(href="#")
-              img(src=val["imgSrc"] alt=val["imgAlt"])
-              .projects__search
-                include ../../modules/search
-            h3.projects__name= val["name"]
-            span.projects__author= val["author"]
-            p.projects__text= val["text"]
+          a.projects__item.wow.fadeInUp(href="projects-inner.html")
+            .projects__img
+              img(src=val["img"] alt=val["name"])
+            .projects__content
+              span.projects__meter= val["meter"]
+              h3.projects__name= val["name"]
+              span.projects__tag= val["tag"]

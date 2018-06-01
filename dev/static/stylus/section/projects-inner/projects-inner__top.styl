@@ -1,0 +1,32 @@
+.pit__list
+  display flex
+  justify-content space-between
+  @media (max-width: screen-md)
+    flex-wrap wrap
+    justify-content center
+
+.pit__item
+  width 100%
+  max-width 289px
+  @media (max-width: screen-md)
+    max-width 45%
+    margin 0 10px 20px
+    order 1
+    &:nth-child(3)
+      order 3
+    &:nth-child(4)
+      order 2
+  @media (max-width: screen-sm)
+    max-width 85%
+    margin 0 auto 20px
+    &:nth-child(3)
+      order 2
+    &:nth-child(4)
+      order 3
+
+.pit__img
+  &+&
+    margin-top 5px
+  @media (max-width: screen-sm)
+    &+&
+      margin-top 20px

@@ -2,44 +2,52 @@
   "title": "Наши проекты",
   "list": [
     {
-      "imgSrc": "app/img/content/projects/1.jpg",
-      "imgAlt": "Project 1",
-      "name": "Svetlana Svetlana",
-      "author": "Svetlana Svetlana",
-      "text": "Это упорядоченный набор предложений, предназначенный для того, чтобы выразить некий смысл предложений, предназначенный для того, чтобы выразить некий смысл",
-      "mod": "small"
+      "img": "app/img/content/projects/1.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
     },
     {
-      "imgSrc": "app/img/content/projects/2.jpg",
-      "imgAlt": "Project 2",
-      "name": "Svetlana Svetlana",
-      "author": "Svetlana Svetlana",
-      "text": "Это упорядоченный набор предложений, предназначенный для того, чтобы выразить некий смысл предложений, предназначенный для того, чтобы выразить некий смысл",
-      "mod": "small"
+      "img": "app/img/content/projects/2.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
     },
     {
-      "imgSrc": "app/img/content/projects/3.jpg",
-      "imgAlt": "Project 3",
-      "name": "Svetlana Svetlana",
-      "author": "Svetlana Svetlana",
-      "text": "Это упорядоченный набор предложений, предназначенный для того, чтобы выразить некий смысл предложений, предназначенный для того, чтобы выразить некий смысл",
-      "mod": "small"
+      "img": "app/img/content/projects/3.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
     },
     {
-      "imgSrc": "app/img/content/projects/4.jpg",
-      "imgAlt": "Project 4",
-      "name": "Svetlana Svetlana",
-      "author": "Svetlana Svetlana",
-      "text": "Это упорядоченный набор предложений, предназначенный для того, чтобы выразить некий смысл предложений, предназначенный для того, чтобы выразить некий смысл",
-      "mod": "big"
+      "img": "app/img/content/projects/4.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
     },
     {
-      "imgSrc": "app/img/content/projects/5.jpg",
-      "imgAlt": "Project 5",
-      "name": "Svetlana Svetlana",
-      "author": "Svetlana Svetlana",
-      "text": "Это упорядоченный набор предложений, предназначенный для того, чтобы выразить некий смысл предложений, предназначенный для того, чтобы выразить некий смысл",
-      "mod": "big"
+      "img": "app/img/content/projects/5.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
+    },
+    {
+      "img": "app/img/content/projects/6.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
+    },
+    {
+      "img": "app/img/content/projects/7.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
+    },
+    {
+      "img": "app/img/content/projects/8.jpg",
+      "meter": "Загородный дом 250м²",
+      "name": "ХУДОЖЕСТВЕННАЯ ЦЕННОСТЬ ГОБЕЛЕНА",
+      "tag": "искушенность"
     }
   ]
 }

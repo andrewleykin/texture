@@ -1,0 +1,18 @@
+section.projects-inner__form.pif
+  .container
+    .pif__wrap
+      h2.title.title--dark.pif__title= projectsInner.form.title
+      span.pif__subtitle= projectsInner.form.subtitle
+      form.pif__form(action="#")
+        .order__list.pif__list
+          each input in projectsInner.form.form.list
+            .order__block.pif__block
+              input.order__input(type=input["type"] name=input["name"] id=input["id"])
+              label.order__label(for=input["id"])= input["label"]
+          .order__block
+            textarea.order__textarea(name=main.order.form.textarea.name id=main.order.form.textarea.id)
+            label.order__label(for=main.order.form.textarea.id)= main.order.form.textarea.label
+        .pif__action
+          p.order__consent.pif__consent= main.order.consent.text
+            a.order__link(href=main.order.consent.link.href)= main.order.consent.link.text
+          button.btn.btn--dark.pif__btn= main.order.form.btn
