@@ -7,12 +7,14 @@
           {
             "imgSrc": "app/img/content/projects-inner/top/1.jpg",
             "imgAlt": "Projects Inner 1",
-            "mod": "small"
+            "mod": "small",
+            "modal": "pit__modal1"
           },
           {
             "imgSrc": "app/img/content/projects-inner/top/2.jpg",
             "imgAlt": "Projects Inner 2",
-            "mod": "small"
+            "mod": "small",
+            "modal": "pit__modal2"
           }
         ]
       },
@@ -21,7 +23,8 @@
           {
             "imgSrc": "app/img/content/projects-inner/top/3.jpg",
             "imgAlt": "Projects Inner 3",
-            "mod": "big"
+            "mod": "big",
+            "modal": "pit__modal3"
           }
         ]
       },
@@ -30,12 +33,14 @@
           {
             "imgSrc": "app/img/content/projects-inner/top/4.jpg",
             "imgAlt": "Projects Inner 4",
-            "mod": "small"
+            "mod": "small",
+            "modal": "pit__modal4"
           },
           {
             "imgSrc": "app/img/content/projects-inner/top/5.jpg",
             "imgAlt": "Projects Inner 5",
-            "mod": "small"
+            "mod": "small",
+            "modal": "pit__modal5"
           }
         ]
       },
@@ -44,7 +49,8 @@
           {
             "imgSrc": "app/img/content/projects-inner/top/6.jpg",
             "imgAlt": "Projects Inner 6",
-            "mod": "big"
+            "mod": "big",
+            "modal": "pit__modal6"
           }
         ]
       }

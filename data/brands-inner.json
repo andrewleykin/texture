@@ -44,24 +44,29 @@
     "title": "Коллекции",
     "imgBig": {
       "src": "app/img/content/brands-inner/collection/1.jpg",
-      "title": "Cotonello Petalos"
+      "title": "Cotonello Petalos",
+      "modal": "bic-modal-big"
     },
     "list": [
       {
         "src": "app/img/content/brands-inner/collection/2.jpg",
-        "title": "Cotonello Petalos"
+        "title": "Cotonello Petalos",
+        "modal": "bic-modal1"
       },
       {
         "src": "app/img/content/brands-inner/collection/3.jpg",
-        "title": "Camberley"
+        "title": "Camberley",
+        "modal": "bic-modal2"
       },
       {
         "src": "app/img/content/brands-inner/collection/4.jpg",
-        "title": "Linea Oro – Out of mind"
+        "title": "Linea Oro – Out of mind",
+        "modal": "bic-modal3"
       },
       {
         "src": "app/img/content/brands-inner/collection/5.jpg",
-        "title": "Linea Oro – Out of mind"
+        "title": "Linea Oro – Out of mind",
+        "modal": "bic-modal4"
       }
     ],
     "more": "Показать еще"
