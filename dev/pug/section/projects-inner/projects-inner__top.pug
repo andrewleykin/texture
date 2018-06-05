@@ -6,15 +6,5 @@ section.wow.fadeInUp.section.projects-inner__top.pit
         each val in projectsInner.top.list
           .pit__item
             each img in val["item"]
-              .pit__img(class="pit__img--"+img["mod"] data-remodal-target=img["modal"]).img-hover
+              a.pit__img(class="pit__img--"+img["mod"] data-fancybox=projectsInner.top.modal href=img["imgSrc"]).img-hover
                 img(src=img["imgSrc"], alt=img["imgAlt"])
-
-
-each val in projectsInner.top.list
-  each img in val["item"]
-    .remodal.pit-modal(data-remodal-id=img["modal"])
-      button.remodal-close.order__close(data-remodal-action="close")
-        +icon(main.general.icons.close)
-      .pit-modal__wrap
-        .pit-modal__img
-          img(src=img["imgSrc"], alt=img["imgAlt"])

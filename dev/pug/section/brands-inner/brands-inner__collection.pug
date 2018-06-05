@@ -2,43 +2,26 @@ section.wow.fadeInUp.brands-inner___collection.bic
   .container
     h2.title.title--dark.bic__title= brandsInner.collection.title
     .bic__wrap
-      a(href="#" data-remodal-target=brandsInner.collection.imgBig.modal).bic__item.bic__item--big
+      a(href=brandsInner.collection.imgBig.src data-caption=brandsInner.collection.imgBig.title data-fancybox=brandsInner.collection.modal.id).bic__item.bic__item--big
         .bic__img.search__block.img-hover
           img(src=brandsInner.collection.imgBig.src, alt=brandsInner.collection.imgBig.title)
         span.bic__subtitle= brandsInner.collection.imgBig.title
       .bic__list
         each item in brandsInner.collection.list
-          a(href="#" data-remodal-target=item["modal"]).bic__item
+          a(href=item["src"] data-fancybox=brandsInner.collection.modal.id data-caption=item["title"]).bic__item
             .bic__img.search__block.img-hover
               img(src=item["src"], alt=item["title"])
             span.bic__subtitle= item["title"]
     .bic__wrap--hidden
       .bic__wrap
-        a(href="#").bic__item.bic__item--big
+        a(href=brandsInner.collection.imgBig.src data-caption=brandsInner.collection.imgBig.title data-fancybox=brandsInner.collection.modal.id).bic__item.bic__item--big
           .bic__img.search__block.img-hover
             img(src=brandsInner.collection.imgBig.src, alt=brandsInner.collection.imgBig.title)
           span.bic__subtitle= brandsInner.collection.imgBig.title
         .bic__list
           each item in brandsInner.collection.list
-            a(href="#" data-remodal-target=item["modal"]).bic__item
+            a(href=item["src"] data-fancybox=brandsInner.collection.modal.id data-caption=item["title"]).bic__item
               .bic__img.search__block.img-hover
                 img(src=item["src"], alt=item["title"])
               span.bic__subtitle= item["title"]
     a(href="#").bic__more= brandsInner.collection.more
-
-.remodal.bic-modal(data-remodal-id=brandsInner.collection.imgBig.modal)
-  button.remodal-close.order__close(data-remodal-action="close")
-    +icon(main.general.icons.close)
-  .bic-modal__wrap
-    h3.bic-modal__title= brandsInner.collection.imgBig.title
-    .bic-modal__img
-      img(src=brandsInner.collection.imgBig.src, alt=brandsInner.collection.imgBig.title)
-
-each item in brandsInner.collection.list
-  .remodal.bic-modal(data-remodal-id=item["modal"])
-    button.remodal-close.order__close(data-remodal-action="close")
-      +icon(main.general.icons.close)
-    .bic-modal__wrap
-      h3.bic-modal__title= item["title"]
-      .bic-modal__img
-        img(src=item["src"], alt=item["title"])

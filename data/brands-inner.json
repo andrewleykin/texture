@@ -45,30 +45,55 @@
     "imgBig": {
       "src": "app/img/content/brands-inner/collection/1.jpg",
       "title": "Cotonello Petalos",
-      "modal": "bic-modal-big"
+      "index": "1"
     },
     "list": [
       {
         "src": "app/img/content/brands-inner/collection/2.jpg",
         "title": "Cotonello Petalos",
-        "modal": "bic-modal1"
+        "index": "2"
       },
       {
         "src": "app/img/content/brands-inner/collection/3.jpg",
         "title": "Camberley",
-        "modal": "bic-modal2"
+        "index": "3"
       },
       {
         "src": "app/img/content/brands-inner/collection/4.jpg",
         "title": "Linea Oro – Out of mind",
-        "modal": "bic-modal3"
+        "index": "4"
       },
       {
         "src": "app/img/content/brands-inner/collection/5.jpg",
         "title": "Linea Oro – Out of mind",
-        "modal": "bic-modal4"
+        "index": "5"
       }
     ],
-    "more": "Показать еще"
+    "more": "Показать еще",
+    "modal": {
+      "id": "brands-inner",
+      "list": [
+        {
+          "src": "app/img/content/brands-inner/collection/1.jpg",
+          "title": "Cotonello Petalos"
+        },
+        {
+          "src": "app/img/content/brands-inner/collection/2.jpg",
+          "title": "Cotonello Petalos"
+        },
+        {
+          "src": "app/img/content/brands-inner/collection/3.jpg",
+          "title": "Camberley"
+        },
+        {
+          "src": "app/img/content/brands-inner/collection/4.jpg",
+          "title": "Linea Oro – Out of mind"
+        },
+        {
+          "src": "app/img/content/brands-inner/collection/5.jpg",
+          "title": "Linea Oro – Out of mind"
+        }
+      ]
+    }
   }
 }

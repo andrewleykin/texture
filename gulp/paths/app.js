@@ -6,6 +6,7 @@ module.exports = [
   './dev/static/js/modules/header.js',
   './dev/static/js/modules/controls.js',
   './dev/static/js/modules/form.js',
+  './dev/static/js/modules/modal-slider.js',
   './dev/static/js/pages/main/top-banner-slider.js',
   './dev/static/js/pages/main/information-slider.js',
   './dev/static/js/pages/about/about-slider.js',

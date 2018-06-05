@@ -34,6 +34,7 @@
     "gulp-uglifyjs": "^0.6.2"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.3.5",
     "animate.css": "^3.5.2",
     "bootstrap": "^4.0.0-alpha.6",
     "font-awesome": "^4.7.0",
