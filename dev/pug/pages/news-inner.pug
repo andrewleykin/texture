@@ -1,0 +1,15 @@
+extends ../layout/main
+
+block variables
+	- var title = 'Новости внутренняя'
+
+block content
+	// Новости внутрення - Верхний баннер
+	include ../section/news-inner/news-inner__top.pug
+	// Конец Новости внутрення - Верхний баннер
+	// Новости внутрення - Контент
+	include ../section/news-inner/news-inner__content.pug
+	// Конец Новости внутрення - Контент
+	// Новости внутрення - Последние новости
+	include ../section/news-inner/news-inner__last.pug
+	// Конец Новости внутрення - Последние новости

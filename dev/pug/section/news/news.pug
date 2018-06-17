@@ -8,13 +8,4 @@ section.news.wow.fadeIn
         .news__roll
           each el in main.newsPreview.roll
             include ../../modules/news-preview/roll-el
-      .news__list.wow.fadeInUp
-        each item in news.list
-          include ../../modules/news-preview/list-el
-      .news__pagination.wow.fadeInUp
-        a.news__icon.news__icon--prev(href="#")
-          +icon(main.general.icons.arrow)
-        each val in news.pagination
-          a.news__pagin(href="#")= val["text"]
-        a.news__icon.news__icon--next(href="#")
-          +icon(main.general.icons.arrow)
+      include ../../modules/news-preview/list

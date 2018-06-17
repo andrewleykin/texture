@@ -1,0 +1,10 @@
+section.news-inner__top.nit
+  .container
+    .nit__wrap
+      .nit__info
+        h2.nit__title= newsInner.top.title
+        .nit__date
+          +icon(main.general.icons.clock)
+          span= newsInner.top.date
+      .nit__img
+        img(src=newsInner.top.img.src, alt=newsInner.top.img.alt)

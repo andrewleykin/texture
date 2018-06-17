@@ -1,0 +1,33 @@
+.nic
+  margin-bottom 100px
+  @media (max-width: screen-md)
+    margin-bottom 70px
+
+.nic__content
+  max-width 760px
+  margin 0 auto
+  p
+    @extend .about__text
+    a
+      color dark-color
+      font-weight 700
+      position relative
+      &:after
+        content ''
+        display block
+        position absolute
+        bottom 0
+        left 0
+        right 0
+        height 1px
+        background dark-color
+        width 100%
+        @extend .trs
+      &:hover
+        &:after
+          width 0
+  p+p
+    margin-top 20px
+
+.nic__social
+  margin-top 50px

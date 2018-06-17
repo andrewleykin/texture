@@ -12,7 +12,8 @@ module.exports = function() {
                     news: JSON.parse($.fs.readFileSync('./data/news.json', 'utf8')),
                     contacts: JSON.parse($.fs.readFileSync('./data/contacts.json', 'utf8')),
                     brandsInner: JSON.parse($.fs.readFileSync('./data/brands-inner.json', 'utf8')),
-                    projectsInner: JSON.parse($.fs.readFileSync('./data/projects-inner.json', 'utf8'))
+                    projectsInner: JSON.parse($.fs.readFileSync('./data/projects-inner.json', 'utf8')),
+                    newsInner: JSON.parse($.fs.readFileSync('./data/news-inner.json', 'utf8'))
                 },
                 pretty: true
             }))

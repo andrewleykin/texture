@@ -1,6 +1,9 @@
 {
   "title": "Новости",
-  "more": "Прочитать",
+  "more": {
+    "text": "Прочитать",
+    "href": "news-inner.html"
+  },
   "last": {
     "tag": "Последняя новость",
     "src": "app/img/content/news/1.jpg",

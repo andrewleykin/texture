@@ -1,0 +1,9 @@
+section.news-inner__content.nic
+  .container
+    .nic__wrap
+      .nic__content
+        each val in newsInner.content
+          p= val["text"]
+        p Или вы можете добавить красивую <a href="#">Ссылка</a>
+        .nic__social
+          include ../../modules/social

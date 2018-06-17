@@ -1,0 +1,49 @@
+.nit
+  margin 230px 0 100px
+  height 450px
+  @media (max-width: screen-xl)
+    margin-top 200px
+  @media (max-width: screen-lg)
+    margin-top 220px
+  @media (max-width screen-md)
+    height auto
+    margin 150px 0 70px
+
+.nit__wrap
+  position relative    
+
+.nit__info
+  padding-top 40px
+  max-width 760px
+  @media (max-width screen-md)
+    max-width 100%
+    margin-bottom 20px
+    padding-top 0
+
+.nit__img
+  position absolute
+  top 0
+  right 0
+  z-index -1
+  @media (max-width screen-md)
+    position static
+
+.nit__title
+  @extend .title
+  color dark-color
+  font-size 58px
+  line-height 64px
+  margin-bottom 30px
+  text-transform uppercase
+  @media (max-width: screen-md)
+    line-height 1
+
+.nit__date
+  display flex
+  align-items: center
+  font-style 18px
+  font-weight 700
+  .icon
+    margin-right 5px
+    size(16px, 13px)
+    fill dark-color
