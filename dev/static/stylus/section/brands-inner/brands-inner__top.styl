@@ -40,13 +40,15 @@
       margin-left 0
       margin-top 10px
 
-.bit__text
-  color accent-color
-  font-weight 300
-  line-height 27px
-  &+&
+.bit__descr
+  p
+    color accent-color
+    font-weight 300
+    line-height 27px
+    @media (max-width: screen-md)
+      text-align center
+  p+p
     margin-top 35px
   @media (max-width: screen-md)
-    text-align center
-    &+&
+    p+p
       margin-top 20px

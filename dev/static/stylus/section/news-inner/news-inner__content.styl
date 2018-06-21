@@ -7,7 +7,18 @@
   max-width 760px
   margin 0 auto
   p
-    @extend .about__text
+    color dark-color
+    font-size 19px
+    font-weight 300
+    line-height 25px
+    &:first-child
+      font-weight 700
+    @media (max-width: screen-md)
+      font-size 18px
+      line-height 22px
+    @media (max-width: screen-sm)
+      font-size 14px
+      line-height 18px
     a
       color dark-color
       font-weight 700
@@ -28,6 +39,9 @@
           width 0
   p+p
     margin-top 20px
+  @media (max-width: screen-md)
+    p+p
+      margin-top 14px
 
 .nic__social
   margin-top 50px

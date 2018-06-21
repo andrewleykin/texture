@@ -92,26 +92,26 @@
   &:hover
     &:before
       animation anim 1.4s linear
-  @media (max-width: screen-sm)
-    margin-bottom 50px
-
-.about__text
-  color dark-color
-  font-size 19px
-  font-weight 300
-  line-height 25px
-  &:first-child
-    font-weight 700
-  &+&
+  p
+    color dark-color
+    font-size 19px
+    font-weight 300
+    line-height 25px
+    &:first-child
+      font-weight 700
+    @media (max-width: screen-md)
+      font-size 18px
+      line-height 22px
+    @media (max-width: screen-sm)
+      font-size 14px
+      line-height 18px
+  p+p 
     margin-top 26px
   @media (max-width: screen-md)
-    font-size 18px
-    line-height 22px
-    &+&
+    p+p
       margin-top 14px
   @media (max-width: screen-sm)
-    font-style 14px
-    line-height 18px
+    margin-bottom 50px
 
 .about__mark
   position absolute
