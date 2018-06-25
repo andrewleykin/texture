@@ -1,6 +1,6 @@
 // Функция для Формы заказа в Модальном окне
 (function(){
-	var form = $('.order__form'),
+	var form = $('.form'),
 			inputs = form.find('input, textarea');
 
 	inputs.each(function() {
